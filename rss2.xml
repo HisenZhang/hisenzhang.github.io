@@ -8,8 +8,30 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Developers of all lands, vereinigt euch!</description>
-    <pubDate>Fri, 13 Apr 2018 05:21:03 GMT</pubDate>
+    <pubDate>Fri, 13 Apr 2018 12:33:10 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Connected to Telegram</title>
+      <link>https://hisenz.com/2018/04/13/Connected-to-Telegram/</link>
+      <guid>https://hisenz.com/2018/04/13/Connected-to-Telegram/</guid>
+      <pubDate>Fri, 13 Apr 2018 12:27:33 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;Hisenz.com has now been connected to telegram.&lt;br&gt;This feature is powered by IFTTT’s RSS feed service, forwarding new posts to telegram
+          
+        
+      
+      </description>
+      
+      <content:encoded><![CDATA[<p>Hisenz.com has now been connected to telegram.<br>This feature is powered by IFTTT’s RSS feed service, forwarding new posts to telegram chats or channels. However, if you prefer RSS reading, the feed is available at <a href="https://hisenz.com/rss2.xml">https://hisenz.com/rss2.xml</a>.</p>]]></content:encoded>
+      
+      <comments>https://hisenz.com/2018/04/13/Connected-to-Telegram/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Hello World</title>
