@@ -7,7 +7,7 @@
 
 <html class="theme-next pisces use-motion" lang="en">
 <head>
-  <meta charset="UTF-8"/>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="#222">
@@ -64,7 +64,7 @@
 
 
 
-  <meta name="keywords" content="News,Spark," />
+  <meta name="keywords" content="Spark,News," />
 
 
 
@@ -76,7 +76,7 @@
 
 
 <meta name="description" content="网页检索阅读 vs 图书阅读很多时候为了短时获取大量信息, 搜索引擎是最好的选择. 但是利用网络进行信息检索只能提供很窄的面. 比如在查阅MVC相关的知识时, Google会很快返回一个相关的定义, 例子. 但是对于MVC的设计思想, 诞生的经历, 则需要更深层次的阅读. Wikipedia, ReadtheDoc等网站都可以提供大量的高度相关的信息. W3Cschool 也是一个速学前端不错的网">
-<meta name="keywords" content="News,Spark">
+<meta name="keywords" content="Spark,News">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于大量阅读的一些思考">
 <meta property="og:url" content="https://hisenz.com/2018/04/14/关于大量阅读的一些思考/index.html">
@@ -122,7 +122,7 @@
 
 
 
-  <title>关于大量阅读的一些思考 | Hisen's Blog</title>
+  <title>关于大量阅读的一些思考 | Hisen's Blog</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
 
 
@@ -141,7 +141,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -397,9 +397,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/News/" rel="tag"># News</a>
-          
             <a href="/tags/Spark/" rel="tag"># Spark</a>
+          
+            <a href="/tags/News/" rel="tag"># News</a>
           
         </div>
       
@@ -515,7 +515,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">16</span>
+                  <span class="site-state-item-count">18</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -818,6 +818,28 @@
   
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  
+
 
   
 
