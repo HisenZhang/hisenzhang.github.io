@@ -258,6 +258,171 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://hisenz.com/2018/11/21/Cartesian-3D-Vector-lib/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Hisen Zhang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/H-sign.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hisen's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/11/21/Cartesian-3D-Vector-lib/" itemprop="url">Cartesian 3D Vector Lib</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-21T20:47:04+08:00">
+                2018-11-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/11/21/Cartesian-3D-Vector-lib/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/11/21/Cartesian-3D-Vector-lib/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><a href="https://github.com/HisenZhang/Cartesian-3D-Vector-lib" target="_blank" rel="noopener">View on GitHub</a></p>
+<p>A simple vector library written in plain C for educational purpose.</p>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>This library is written in hope to simplify the coding process for non-professional vector computation.</p>
+<p>This library <strong>should not</strong> be used for industrial or scientific use due to the limited precision and performance; Complex number is not supported either.</p>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><ol>
+<li><p>You may copy the files in <code>./include</code> to your project directory and compile it seperately;</p>
+</li>
+<li><p>You may generate a single head file <code>vector.h</code> for your project:</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ make single</span><br></pre></td></tr></table></figure>
+<p> This generate a single head file in the project root directory <code>./</code>. Copy the <code>./vector.h</code> to your project and include it.</p>
+</li>
+</ol>
+<h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><p>This is a brief demonstration on the commonly used functions’ usage. The output of each statement follows in comments. </p>
+<p>Several practical examples are available in <code>./example</code>.</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"include/vector.h"</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> <span class="keyword">const</span> *argv[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">// Initialize vectors</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">vector</span> A = vecSet(<span class="number">1.0</span>, <span class="number">2.0</span>, <span class="number">0.0</span>); </span><br><span class="line">    <span class="built_in">vector</span> B = vecSet(<span class="number">0.0</span>, <span class="number">1.0</span>, <span class="number">3.0</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">// vecPrint() pretty print the vector</span></span><br><span class="line">    <span class="comment">// in the form of &lt;x,y,z&gt; |modulus|</span></span><br><span class="line">    </span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"Vector A,B\n"</span>);</span><br><span class="line">    vecPrint(A); <span class="comment">// &lt; 1.00, 2.00, 0.00&gt; | 2.24| </span></span><br><span class="line">    vecnPrint(B, <span class="number">4</span>); <span class="comment">// &lt; 0.0000, 1.0000, 3.0000&gt; | 3.1623|</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// Arithmetic operations</span></span><br><span class="line">	<span class="comment">// The comming statements demonstarte </span></span><br><span class="line">    <span class="comment">// 1. Vector Addtion</span></span><br><span class="line">    <span class="comment">// 2. Vector Subtraction</span></span><br><span class="line">    <span class="comment">// 3. Vector Cross Product</span></span><br><span class="line">    <span class="comment">// 4. Vector Dot Product</span></span><br><span class="line">    <span class="comment">// 5. Vector Scalar Product</span></span><br><span class="line">        </span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\nADD, SUB, CRX, DOT, SCL\n"</span>);</span><br><span class="line">    vecPrint(vecAdd(A, B));  <span class="comment">// &lt; 1.00, 3.00, 3.00&gt; | 4.36|</span></span><br><span class="line">    vecPrint(vecSub(A, B));  <span class="comment">// &lt; 1.00, 1.00,-3.00&gt; | 3.32|</span></span><br><span class="line">    vecPrint(vecCrx(A, B));  <span class="comment">// &lt; 6.00,-3.00, 1.00&gt; | 6.78|</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"% .2f\n"</span>,vecDot(A, B)); <span class="comment">// 2.00</span></span><br><span class="line">    vecPrint(vecScl(A, <span class="number">4.0</span>));  <span class="comment">// &lt; 8.00, 0.00, 0.00&gt; | 8.00|</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">// Find unit vector</span></span><br><span class="line">    </span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\nUnit A,B\n"</span>);</span><br><span class="line">    vecPrint(vecUnit(A));  <span class="comment">// &lt; 0.45, 0.89, 0.00&gt; | 2.24|</span></span><br><span class="line">    vecPrint(vecUnit(B));  <span class="comment">// &lt; 0.00, 0.32, 0.95&gt; | 3.16|</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// Take negative</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\nNEG A,B\n"</span>);</span><br><span class="line">    vecPrint(vecNeg(A));  <span class="comment">// &lt;-1.00,-2.00,-0.00&gt; | 2.24|</span></span><br><span class="line">    vecPrint(vecNeg(B));  <span class="comment">// &lt;-0.00,-1.00,-3.00&gt; | 3.16|</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// Take modulus</span></span><br><span class="line">    </span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\nMOD A,B\n"</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"|% .2f|\n"</span>,vecMod(A));  <span class="comment">// 2.24</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"|% .2f|\n"</span>,vecMod(B));  <span class="comment">// 3.16</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Type"><a href="#Type" class="headerlink" title="Type"></a>Type</h2><h3 id="vector"><a href="#vector" class="headerlink" title="vector"></a>vector</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Vector</span>&#123;</span></span><br><span class="line">    <span class="keyword">double</span> x;</span><br><span class="line">    <span class="keyword">double</span> y;</span><br><span class="line">    <span class="keyword">double</span> z;</span><br><span class="line">    <span class="keyword">double</span> mag;</span><br><span class="line">&#125;<span class="built_in">vector</span>;</span><br></pre></td></tr></table></figure>
+<p>The <code>vector</code> type contains components in three dimensions and the overall magnitude. All these data are in <code>double</code> type. Each time an operation is performed to a vector, the magnitude would update automatically. </p>
+<p>You may get a component directly:</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">vector</span> V = vecSet(<span class="number">1.1</span>, <span class="number">2.2</span>, <span class="number">3.3</span>);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%f"</span>, V.x); <span class="comment">// This prints out the x component of vector V</span></span><br></pre></td></tr></table></figure>
+<h2 id="Functions"><a href="#Functions" class="headerlink" title="Functions"></a>Functions</h2><h3 id="Arithmetic"><a href="#Arithmetic" class="headerlink" title="Arithmetic"></a>Arithmetic</h3><h4 id="Addition"><a href="#Addition" class="headerlink" title="Addition"></a>Addition</h4><p><code>vecAdd(A, B)</code> returns the sum: <code>A + B</code>.</p>
+<h4 id="Subtraction"><a href="#Subtraction" class="headerlink" title="Subtraction"></a>Subtraction</h4><p><code>vecSub(A, B)</code> returns the difference: <code>A - B</code>.</p>
+<h4 id="Negative"><a href="#Negative" class="headerlink" title="Negative"></a>Negative</h4><p><code>vecNeg(V)</code> returns the negative: <code>- V</code>.</p>
+<h4 id="Modulus"><a href="#Modulus" class="headerlink" title="Modulus"></a>Modulus</h4><p><code>vecMod(V)</code> returns the modulus: <code>| V |</code>.</p>
+<h4 id="Unit-Vector"><a href="#Unit-Vector" class="headerlink" title="Unit Vector"></a>Unit Vector</h4><p><code>vecUnit(V)</code> returns the unit vector: <code>^ V</code>.</p>
+<h4 id="Scalar-Product"><a href="#Scalar-Product" class="headerlink" title="Scalar Product"></a>Scalar Product</h4><p><code>vecScl(V, s)</code> returns the vector <code>s * V</code>.</p>
+<h4 id="Dot-Product"><a href="#Dot-Product" class="headerlink" title="Dot Product"></a>Dot Product</h4><p><code>vecDot(A, B)</code> returns the dot product: <code>A · B</code>.</p>
+<h4 id="Cross-Product"><a href="#Cross-Product" class="headerlink" title="Cross Product"></a>Cross Product</h4><p><code>vecCrx(A, B)</code> returns the Cross product: <code>A × B</code>.</p>
+<h3 id="Utilities"><a href="#Utilities" class="headerlink" title="Utilities"></a>Utilities</h3><h4 id="Initialization"><a href="#Initialization" class="headerlink" title="Initialization"></a>Initialization</h4><p>There’re two ways to initialize a vector:</p>
+<ol>
+<li><code>vecSet(x, y, z)</code> returns a vector specify the coordinates (x,y,z).</li>
+<li><code>vecInit()</code> returns a vector with coordinates all of <code>0.0</code>. However, you should use <code>vecSet(0.0, 0.0, 0.0)</code> instead for better readability.</li>
+</ol>
+<h4 id="Pretty-Print"><a href="#Pretty-Print" class="headerlink" title="Pretty Print"></a>Pretty Print</h4><ol>
+<li><code>vecPrint(V)</code> prints the vector in the form of <code>&lt;x, y, z&gt; | modulus |</code>, 2 decimal places by default</li>
+<li><code>vecnPrint(V, p)</code> using the specified precision <code>p</code>. If p is 0, print in exponential form.</li>
+</ol>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://hisenz.com/2018/11/02/汇编视角-不同优化级别下的gcc行为分析/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
@@ -1333,152 +1498,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://hisenz.com/2018/04/21/QR-Code/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Hisen Zhang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/H-sign.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hisen's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/04/21/QR-Code/" itemprop="url">二维码的抽象特征分析</a></h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-21T11:40:45+08:00">
-                2018-04-21
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2018/04/21/QR-Code/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/04/21/QR-Code/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>在我们之前的文章, 里面提到了想要拓展二维码的功能, 就要首先对二维码这事物进行抽象. 那么今天这篇文章里面让我们来详细探讨一下, 以二维码为例, 如何对一个事物进行抽象从而分析其特征. </p>
-<h2 id="光学承载体"><a href="#光学承载体" class="headerlink" title="光学承载体"></a>光学承载体</h2><p>首先我们从日常生活中遇到的二维码出发, 在日常生活中二维码主要包含了链接公众号以及其他的一些信息. 从内容当中我们可以看出二维码在日常生活中充当的角色是<code>以矩阵存取信息的光学承载体</code>. </p>
-<p>生活中还有哪些常见的信息存在体呢? 很简单, 语言文字就是其中的一种 – 当我们把一句话, 一个想法, 一个观点用文字记录在纸上的时候, 纸上的这些文字就成了我们信息的承载体. </p>
-<p>由于信息这一概念本身是抽象, 因此它的存在需要有一个具象的实体来承载. 荷载<code>load</code>是信息, 承载体/媒介<code>media</code>则把load调制<code>modulate</code>后具象的表达出来. </p>
-<p>说是<strong>光学</strong>承载体的原因在于他和文字同样是存在于印刷品上的. 如果一个人失明了, 他就无法直接读出纸上的文字, 而是要通过其他的方法(盲文 - 触觉/请他人朗读 - 声信号). 当然, 采用光学作为存取的方法有很多的好处, 比方说:</p>
-<ol>
-<li>它的制作成本低廉. 人类的印刷技术已经达到了一个相对发达的水平, 印刷光学材料随处可觅, 已经非常的廉价.</li>
-<li>其灵活性允许了动态二维码的出现. 这一点将在稍后讨论. </li>
-</ol>
-<h2 id="人机的可读写性"><a href="#人机的可读写性" class="headerlink" title="人机的可读写性"></a>人机的可读写性</h2><p>广义上的二维码还涵盖了很多, 比方说选择题的涂卡卷就是一种稀疏的二维码, 早期计算机编程用的程序卡也是一种二维码. 那么语言文字和二维码之间有什么样的不同呢？语言文字是可读的, 是人类可读写的. 当你看到一句话的时候, 你可以立刻理解其中的含义, 但是二维码并非人类可读. 难道你有自动扫码的功能吗？相比之下, 二维码是机器可读写的 – 机器可以轻松识别或生成二维码. </p>
-<p>到目前为止, 我们已经把二维码从一个矩阵抽象到了信息的承载体, 进而在信息媒介的基础上分析除了二维码的一大特征 – 机器可读. 现在让我们继续分析. </p>
-<h2 id="动态静态-主动被动"><a href="#动态静态-主动被动" class="headerlink" title="动态静态 主动被动"></a>动态静态 主动被动</h2><p>在支付宝应用动态码之前, 所有的二维码都是印刷的印刷品质上的. 也就是静态的, 一旦被确定后里面的内容无法改变. 而作为机器, 虽然说识别出来的信息是一定的, 但是我们的处理方式上却可以动态改变, 因此二维码在印刷端, 也就是作为一种媒介的时候, 是静态的被动的. 但是二维码在解析的时候, 是作为一种动态的积极的存在. </p>
-<p>由于解析端是动态的积极的, 因此我们在这一个方面上做出了很多的应用. 比方说二维码里面包含的是一个链接时候, 我们就会默认用浏览器加载出这个网页. 如果这个URL指向的是另外的协议<code>scheme</code>, 比方说<code>wxp://</code>, 则会跳转到微信里进行进一步的操作, 因此整个解析的过程是动态的积极的. </p>
-<p>这里需要注意一点并不是每个二维码里面都必须包含有一个URL, 也不是所有的二维码软件在扫描到URL的时候都会默认的打开浏览器去加载这个网页, 毕竟二维码含有的只是信息. 而至于对这一段信息如何进行处理？这是后话. 有些软件会选择打开浏览器, 而有些软件直接显示出这一个链接而不做跳转.</p>
-<p>这一特性使得二维码, 或者说较之更为传统的条码在工业应用上获得了巨大的成功. 在大规模工业生产<code>mass production</code>里面采用流水号来管理, 这种想法很早以前就已经被提出来了. 但是真正被大规模的应用时间还是在条码的发明以后, 因为当一个产品被制造出来, 并分配到流水号的时候, 这个ID并没有去被改变的需要, 因此二维码作为一种静态的媒介在这一个领域里发挥了重大的作用. 我们现在的世界已经无法离开条码了: 你可以想象物流公司一个一个手抄快递单号进行订单的追踪吗？</p>
-<p>动态二维码的诞生改变了这一主动和被动的关系. 每个二维码仍然是静态的, 但是由于电子屏幕可以刷新, 二维码可以被改变. 这时候二维码已经不再单单是一种信息的承载了. 事实上, 这个时候二维码已经成为了一种接口<code>Interface</code>, 一种连接机器和机器的接口, 一台机器产生二维码, 由另一台机器读取.（你手绘个二维码？）</p>
-<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>二维码有着广泛的应用. 但是如果想要发掘二维码的更多有趣应用, 对其特征进行抽象和分析是必要的. 这篇文章对二维码的特征分析十分粗略, 但是如果诸位读者能从中学到利用抽象协助分析的技巧, 我写本文的目的也就达到了.</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1531,7 +1550,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">19</span>
+                  <span class="site-state-item-count">20</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
