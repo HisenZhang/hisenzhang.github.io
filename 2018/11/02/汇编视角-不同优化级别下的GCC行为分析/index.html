@@ -83,7 +83,7 @@
 <meta property="og:site_name" content="Hisen&#39;s Blog">
 <meta property="og:description" content="本篇以memcpy这一函数为例, 分别在0-3的gcc优化级别下编译并反汇编, 并对反汇编得到的代码进行分析, 以观察不同优化级别下gcc的行为. 本文使用的gcc版本 7.3.0 以下汇编与反汇编均在x64平台上进行  Overviewgcc的官方文档中有对于优化参数-O的描述. 简要概括如下:    优化级别 描述     0 关闭优化. gcc的默认选项   1 在不明显拖慢编译速度的情况">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-11-29T02:35:29.657Z">
+<meta property="og:updated_time" content="2018-12-06T08:13:57.846Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="汇编视角:不同优化级别下的GCC行为分析">
 <meta name="twitter:description" content="本篇以memcpy这一函数为例, 分别在0-3的gcc优化级别下编译并反汇编, 并对反汇编得到的代码进行分析, 以观察不同优化级别下gcc的行为. 本文使用的gcc版本 7.3.0 以下汇编与反汇编均在x64平台上进行  Overviewgcc的官方文档中有对于优化参数-O的描述. 简要概括如下:    优化级别 描述     0 关闭优化. gcc的默认选项   1 在不明显拖慢编译速度的情况">
@@ -386,7 +386,7 @@
 <p>关键的复制操作是利用中间寄存器里的值来完成, 和正常的认知有些不一样.</p>
 <p>有个奇怪的地方:还有明明是bytewise的复制操作(18行), 为什么这里拷贝了四字节再取低8位, gcc真是奇怪.</p>
 <h4 id="一级优化"><a href="#一级优化" class="headerlink" title="一级优化"></a>一级优化</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"> 0:	48 89 f8             	mov    %rdi,%rax			; dest addr for return</span><br><span class="line"> 3:	48 85 d2             	test   %rdx,%rdx			; if len = 0 escape </span><br><span class="line"> 6:	74 17                	je     1f &lt;memcpy+0x1f&gt;		; </span><br><span class="line"> 8:	b9 00 00 00 00       	mov    $0x0,%ecx			; initialize counter</span><br><span class="line"> d:	44 0f b6 04 0e       	movzbl (%rsi,%rcx,1),%r8d	; copy src+count into ecx</span><br><span class="line">12:	44 88 04 08          	mov    %r8b,(%rax,%rcx,1)	; into dest+count</span><br><span class="line">16:	48 83 c1 01          	add    $0x1,%rcx			; inc counter</span><br><span class="line">1a:	48 39 d1             	cmp    %rdx,%rcx			; if count != len continue </span><br><span class="line">1d:	75 ee                	jne    d &lt;memcpy+0xd&gt;		;</span><br><span class="line">1f:	f3 c3                	repz retq</span><br></pre></td></tr></table></figure>
-<p>开启优化后得到另外一种风格. 可以看出参数没有被放入内存, 而是直接读写寄存器, 从时间效率上来看要快不少. </p>
+<p>开启优化后得到另外一种风格. 可以看出参数没有被放入内存, 而是直接读写寄存器, 从时间效率上来看要快不少. 这也是x64的一个优点之一: 四个整形变量可以直接从寄存器传参而不用入栈, 节约了压栈和读写内存的时间.</p>
 <p>复制的关键代码只有三行:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">movzbl (%rsi,%rcx,1),%r8d	; copy src+count into ecx</span><br><span class="line">mov    %r8b,(%rax,%rcx,1)	; into dest+count</span><br><span class="line">add    $0x1,%rcx			; inc counter</span><br></pre></td></tr></table></figure>
 <p>不得不承认, gcc的这个写法还是挺漂亮的.</p>
