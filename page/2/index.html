@@ -54,10 +54,10 @@
 
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/32x32.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/logo/32x32.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/16x16.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="16x16" href="/logo/16x16.png?v=5.1.4">
 
 
 
@@ -258,12 +258,180 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://hisenz.com/2018/11/02/汇编视角-不同优化级别下的GCC行为分析/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Hisen Zhang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/logo/H-sign.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hisen's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/11/02/汇编视角-不同优化级别下的GCC行为分析/" itemprop="url">汇编视角:不同优化级别下的GCC行为分析</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-02T23:58:55+08:00">
+                2018-11-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/11/02/汇编视角-不同优化级别下的GCC行为分析/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/11/02/汇编视角-不同优化级别下的GCC行为分析/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <blockquote>
+<p>本篇以memcpy这一函数为例, 分别在0-3的gcc优化级别下编译并反汇编, 并对反汇编得到的代码进行分析, 以观察不同优化级别下gcc的行为.</p>
+<p>本文使用的gcc版本 7.3.0</p>
+<p>以下汇编与反汇编均在x64平台上进行</p>
+</blockquote>
+<h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p><a href="https://gcc.gnu.org/onlinedocs/gcc-7.3.0/gcc/Optimize-Options.html#Optimize-Options" target="_blank" rel="noopener">gcc的官方文档</a>中有对于优化参数<code>-O</code>的描述. 简要概括如下:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">优化级别</th>
+<th style="text-align:center">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">0</td>
+<td style="text-align:center">关闭优化. gcc的默认选项</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">在不明显拖慢编译速度的情况下减小代码尺寸, 提升执行速度</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">在不以存储空间换运行时间的前提下, 采用几乎所有gcc支持的优化方法</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center">二级优化的基础上进一步优化</td>
+</tr>
+</tbody>
+</table>
+<p>还有便于debug的<code>Og</code>, 骚操作(极致优化但不遵从编码规范)的<code>Ofast</code>, 介于2-3级别间的<code>Os</code>.</p>
+<p>整体上而言, 优化级别越高, 编译速度会越慢, 占用的内存越大; 同时, 生成的代码运行时速度越快, 可读性越低.</p>
+<p>下面我们用实际的例子来看一看不同优化级别下gcc的具体行为. 选择memcpy作为例子是因为它的实现代码足够简单, 但是涉及了传参, 条件判断和循环, 是逻辑密集型的代码, 能很好的体现gcc在逻辑上的优化.</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/11/02/汇编视角-不同优化级别下的GCC行为分析/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://hisenz.com/2018/10/14/A-Example-of-Docker-in-Reality/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Hisen Zhang">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/H-sign.png">
+      <meta itemprop="image" content="/logo/H-sign.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
@@ -398,7 +566,7 @@
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Hisen Zhang">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/H-sign.png">
+      <meta itemprop="image" content="/logo/H-sign.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
@@ -535,7 +703,7 @@
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Hisen Zhang">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/H-sign.png">
+      <meta itemprop="image" content="/logo/H-sign.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
@@ -672,7 +840,7 @@
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Hisen Zhang">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/H-sign.png">
+      <meta itemprop="image" content="/logo/H-sign.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
@@ -805,7 +973,7 @@
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Hisen Zhang">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/H-sign.png">
+      <meta itemprop="image" content="/logo/H-sign.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
@@ -921,148 +1089,11 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://hisenz.com/2018/04/20/道可道/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Hisen Zhang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/H-sign.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hisen's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/04/20/道可道/" itemprop="url">道可道 - 关于抽象和"道"的思考</a></h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-20T18:18:55+08:00">
-                2018-04-20
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2018/04/20/道可道/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/04/20/道可道/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <blockquote>
-<p>道是一切抽象的抽象.</p>
-</blockquote>
-<p>前段时间设计了一个二维码身份验证系统. 每个二维码都具有完全唯一的特性, 并且即使数据库泄露也无法制作出相同的二维码. 另一个项目是在所有的 Pastpaper 上嵌入一个小小的指向 Markscheme 的二维码. 这些项目让我开始思考二维码到底能应用在什么样场景里, 这些场景又有着那些特征. </p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/04/20/道可道/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1097,7 +1128,7 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="/H-sign.png" alt="Hisen Zhang">
+              <img class="site-author-image" itemprop="image" src="/logo/H-sign.png" alt="Hisen Zhang">
             
               <p class="site-author-name" itemprop="name">Hisen Zhang</p>
               <p class="site-description motion-element" itemprop="description"></p>
@@ -1110,7 +1141,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">24</span>
+                  <span class="site-state-item-count">25</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
