@@ -3,11 +3,6 @@ Allow: /
 Allow: /archives/
 Allow: /tags/ 
 Allow: /about/
-Disallow: /page/
-Disallow: /2017/
-Disallow: /2018/
-Disallow: /2019/
-Disallow: /2020/
 Disallow: /vendors/
 Disallow: /js/
 Disallow: /css/
