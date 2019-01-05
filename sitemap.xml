@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hisenz.com/404.html</loc>
+    
+    <lastmod>2019-01-05T10:49:32.742Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hisenz.com/404.html</loc>
+    
+    <lastmod>2019-01-05T10:44:32.250Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hisenz.com/post/Sous-Vide/</loc>
+    
+    <lastmod>2019-01-02T06:17:40.390Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hisenz.com/post/A-Example-of-Docker-in-Reality/</loc>
     
     <lastmod>2018-12-31T14:02:24.764Z</lastmod>
@@ -96,13 +117,6 @@
     <loc>https://hisenz.com/post/Reverse-Polish-Notation-Implement/</loc>
     
     <lastmod>2018-12-31T14:01:02.889Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hisenz.com/post/Sous-Vide/</loc>
-    
-    <lastmod>2018-12-31T14:00:56.345Z</lastmod>
     
   </url>
   
