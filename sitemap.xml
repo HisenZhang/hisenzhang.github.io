@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hisenz.com/post/ifixit/</loc>
+    
+    <lastmod>2019-01-15T11:26:19.485Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hisenz.com/post/Sous-Vide/</loc>
     
     <lastmod>2019-01-06T10:11:00.765Z</lastmod>
@@ -19,6 +26,13 @@
     <loc>https://hisenz.com/post/%E5%88%A9%E7%94%A8%E8%B6%8A%E7%95%8C%E5%92%8C%E6%BA%A2%E5%87%BA-C%E8%AF%AD%E8%A8%80/</loc>
     
     <lastmod>2019-01-06T09:19:42.607Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hisenz.com/about/index.html</loc>
+    
+    <lastmod>2019-01-06T07:28:11.991Z</lastmod>
     
   </url>
   
@@ -159,13 +173,6 @@
     <loc>https://hisenz.com/post/2018-summary/</loc>
     
     <lastmod>2018-12-29T06:10:46.892Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hisenz.com/about/index.html</loc>
-    
-    <lastmod>2018-12-29T06:09:49.729Z</lastmod>
     
   </url>
   
