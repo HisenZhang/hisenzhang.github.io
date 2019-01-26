@@ -92,7 +92,7 @@
 <meta property="og:image" content="https://s1.ax1x.com/2018/07/24/PYnOLF.png">
 <meta property="og:image" content="https://s1.ax1x.com/2018/07/24/PYy7M6.png">
 <meta property="og:image" content="https://s1.ax1x.com/2018/07/24/PYnvdJ.png">
-<meta property="og:updated_time" content="2019-01-06T09:25:05.617Z">
+<meta property="og:updated_time" content="2019-01-22T05:44:38.958Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="P.A.E. | Paper Assembly Engine">
 <meta name="twitter:description" content="We liberate millions of students and teachers from exam-oriented education by reducing attention and time dissipated on training, with the solution entirely directed by mathematical models. – Hisen Z">
@@ -477,7 +477,7 @@
 <h2 id="Innovations"><a href="#Innovations" class="headerlink" title="Innovations"></a>Innovations</h2><h3 id="Introduction-to-Innovations"><a href="#Introduction-to-Innovations" class="headerlink" title="Introduction to Innovations"></a>Introduction to Innovations</h3><p>While programming this system, some functions already integrated into standard or third-party modules do not fit my case perfectly. For instance, I first planned to use CSV (comma separated values) to store the matrix of cosine similarity. However, storing in text not only occupies large storage space but also has a loss in data precision. Therefore I defined a type of file to store this matrix efficiently.</p>
 <h3 id="CSM-Cosine-Similarity-Matrix-storage"><a href="#CSM-Cosine-Similarity-Matrix-storage" class="headerlink" title="CSM: Cosine Similarity Matrix storage"></a>CSM: Cosine Similarity Matrix storage</h3><p>As suggested in earlier chapter, the matrix of cosine similarity looks like this:<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[[<span class="number">0.2432432</span>],</span><br><span class="line"> [<span class="number">0.2343243</span>,<span class="number">0.0783058</span>],</span><br><span class="line"> [<span class="number">0.0</span>,<span class="number">0.003256</span>,<span class="number">0.18034235</span>]]</span><br></pre></td></tr></table></figure></p>
 <p>The calculated cosine similarity matrix is symmetrical. This means it is possible to cut the size in half when it comes to storage, whether in the memory or on the disk. To be precise, the actual elements required to restore a complete n by n matrix is:</p>
-<p>$$\frac {1}{2}n (n-1)$$</p>
+<p>$\frac {1}{2}n (n-1)$</p>
 <p>In this case, the values are in the type of float. Each float element has the size of 4 bytes. Therefore the total size of the file is $2n(n-1)$ bytes.</p>
 <p>The built-in function in Python repr() convert the objects in strings, and they can be restored to object with eval(). However, float data here must experience loss in precision because the data is rounded to some digits for saving storage space. </p>
 <p>The comparison below may show how the solution makes a difference. Rounded to 5 digits, a “float” stored in string occupies 8 bytes on average (with “0.” and a comma). n is the dimension of the matrix. </p>
