@@ -8,31 +8,8 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>海森的博客 - 技术, 料理 &amp; 爵士乐</description>
-    <pubDate>Sat, 02 Feb 2019 16:54:31 GMT</pubDate>
+    <pubDate>Sat, 02 Feb 2019 16:57:45 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>挑战 | 逆波兰表达式解释器</title>
-      <link>https://hisenz.com/post/rpn-challenge/</link>
-      <guid>https://hisenz.com/post/rpn-challenge/</guid>
-      <pubDate>Sat, 02 Feb 2019 16:54:31 GMT</pubDate>
-      <description>
-      
-        &lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;挑战 | 逆波兰表达式解释器&quot;&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Copyright 2019 &lt;a href=&quot;mailto:hisen@hisenz.com&quot;&gt;HisenZhang&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;1920年, 逆波兰表示法&lt;code&gt;Reverse Polish Notation&lt;/code&gt;首次被提出. 不同于我们常用的中置表达式, 逆波兰表示法将操作符写在操作数后面, 例如阶乘&lt;code&gt;!&lt;/code&gt;. &lt;/p&gt;
-&lt;p&gt;逆波兰表示法的这一特性适合使用栈&lt;code&gt;stack&lt;/code&gt;来解析. 这种设计可以减少存储器访问. 因此在1960和1970年代, 逆波兰记法广泛应用于台式和手持计算器.&lt;/p&gt;
-&lt;p&gt;在这个挑战里, 你需要编写一个解释器来计算逆波兰表达式, 实现加减乘除四则运算.&lt;/p&gt;
-      
-      </description>
-      
-      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="挑战 | 逆波兰表达式解释器"><blockquote><p>Copyright 2019 <a href="mailto:hisen@hisenz.com">HisenZhang</a></p></blockquote><p>1920年, 逆波兰表示法<code>Reverse Polish Notation</code>首次被提出. 不同于我们常用的中置表达式, 逆波兰表示法将操作符写在操作数后面, 例如阶乘<code>!</code>. </p><p>逆波兰表示法的这一特性适合使用栈<code>stack</code>来解析. 这种设计可以减少存储器访问. 因此在1960和1970年代, 逆波兰记法广泛应用于台式和手持计算器.</p><p>在这个挑战里, 你需要编写一个解释器来计算逆波兰表达式, 实现加减乘除四则运算.</p><a id="more"></a><h3 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h3><p><strong>输入样例 1</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">6 7 8 + *</span><br></pre></td></tr></table></figure><p><strong>输出样例 1</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">90</span><br></pre></td></tr></table></figure><p><strong>输入样例 2</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2.2 3 * 4 +</span><br></pre></td></tr></table></figure><p><strong>输出样例 2</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">10.6</span><br></pre></td></tr></table></figure><h3 id="完成度"><a href="#完成度" class="headerlink" title="完成度"></a><strong>完成度</strong></h3><p>本挑战的完成度分为两个等级</p><ol><li>可以解析个位数的操作数</li><li>可以解析多位操作数(包括浮点数)</li></ol><h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><ol><li>学习栈<code>stack</code>结构与栈的操作</li><li>强化列表与字符串的操作</li><li>强化四则运算的编程</li><li>强化条件/循环语句</li></ol><h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>访问OneDrive以获取相关材料</p><iframe src="https://onedrive.live.com/embed?cid=8CBB3C51F3734709&resid=8CBB3C51F3734709%211334&authkey=AGFW-CkDnflM7fw" width="165" height="128" frameborder="0" scrolling="no"></iframe><ol><li>中文维基百科: <ul><li><code>reverse_polish_notation.pdf</code></li></ul></li><li>视频 &amp; 英语字幕: <ul><li><code>Reverse Polish Notation and The Stack - Computerphile.m4v</code> </li><li><code>Reverse Polish Notation and The Stack - Computerphile.ass</code></li></ul></li><li>从零开始学Python(第二版)节选<ul><li><code>list_functions.pdf</code></li></ul></li></ol><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><ol><li>列表对象有两个方法: <ul><li><code>append()</code></li><li><code>pop()</code></li></ul></li><li>字符串对象有个方法:<ul><li><code>strip()</code></li></ul></li></ol>]]></content:encoded>
-      
-      <comments>https://hisenz.com/post/rpn-challenge/#disqus_thread</comments>
-    </item>
     
     <item>
       <title>挑战 | Brainfuck语言解释器</title>
@@ -94,6 +71,29 @@
       <content:encoded><![CDATA[<p>现在车抛锚了, 我只能缩在吉普车里. 即便此刻是正午, 蔽天浓烟之下四周依然昏暗.</p><a id="more"></a><p>公路两边, 是无边无际的漫漫黄沙与鬼斧神工的岩石.</p><p>电力通讯网瘫痪, 手机成了废品, 我现在仍然把它放在口袋里也只是”出于情怀”. 唯有自由的电波在空气中毫无痕迹的通过, 此刻这也是与外界通信的唯一方式.</p><p>转动车载电台上的旋钮时候, 除了通联, 偶尔还能收听到一些音乐电台. 这成了逃亡之路上唯一的消遣. 模糊记得, 昨天在加油站修整的时候似乎还能收到七八个台, 今天却只听到两个Classic和R&amp;B. 从其它幸存者的闲聊那里听说, 位于感染区的音乐电台似乎都无人值守维护, 难保设备不出点什么小毛病, 因此戏称”废土电台”. 而我只希望在到达尚未感染的北极圈之前(至少在目前来看还是伊甸园), 一路上还能有音乐陪伴.</p><p>调回到最先发现的音乐台, 方才从调谐钮上移开了手. 我放倒座椅躺下, 盯着触手可及的车顶, 盘算着下一步的行动. 车就是性命. 车(还能工作的车)才能载我到我想去或是我不得不去的地方.</p><p>但是, 就算我可以到达安全区, 在那里汇集的幸存者都会是些什么人呢? “像我这样的亡命之徒吧,”我自嘲道. 比起日益恶化生存条件, 人才是最大的威胁. 因此大多数时候我只是保持着沉默, 仅仅收听其他幸存者的通联而一言不发. 于我而言, 荒无人烟的沙漠才是最安全的地方: 视野开阔, 开车逃跑也容易. 一切都好, 除了食物弹药和汽油奇缺. </p><p>我直起身, 从手套箱里摸出地图. 现在驶离Las Vegas已有30英里, 只要沿着15号公路一路向北, 汽油供应不会有问题. 我只能暗自祈祷先行的逃亡者还有点良心, 这样沿途的废弃加油站里很大概率可以找到汽油和一些工具. 桶装的油是首选, 拎上就可以往车里灌; 废弃的车里也可以偷出一些油, 不过一辆一地拿着虹吸管去挺麻烦, 况且汽油的味道实在不怎么样. </p><p>想到这里, 我顺手拆了一包小甜饼. 几天之前与感染者一场血战之后, 我从超市里搜刮来的水和食物够支持我两个星期, 所以到达目的地前我每天都可以胡吃海喝, 前提是我吃不腻这种草莓果酱小曲奇.</p><p>只要我可以修好我的车.</p><p>不管怎么说, 在这里抛锚的我孤立无援. 没有人可以来帮助我. 走出这里只能依赖自己的勇气, 知识和希望. 一口白兰地下肚, 我把音量调小了些, 披上外套, 伸手去拉开车门.</p>]]></content:encoded>
       
       <comments>https://hisenz.com/post/alone-in-the-desert/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>挑战 | 逆波兰表达式解释器</title>
+      <link>https://hisenz.com/post/rpn-challenge/</link>
+      <guid>https://hisenz.com/post/rpn-challenge/</guid>
+      <pubDate>Sat, 02 Feb 2019 04:50:41 GMT</pubDate>
+      <description>
+      
+        &lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;挑战 | 逆波兰表达式解释器&quot;&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Copyright 2019 &lt;a href=&quot;mailto:hisen@hisenz.com&quot;&gt;HisenZhang&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;1920年, 逆波兰表示法&lt;code&gt;Reverse Polish Notation&lt;/code&gt;首次被提出. 不同于我们常用的中置表达式, 逆波兰表示法将操作符写在操作数后面, 例如阶乘&lt;code&gt;!&lt;/code&gt;. &lt;/p&gt;
+&lt;p&gt;逆波兰表示法的这一特性适合使用栈&lt;code&gt;stack&lt;/code&gt;来解析. 这种设计可以减少存储器访问. 因此在1960和1970年代, 逆波兰记法广泛应用于台式和手持计算器.&lt;/p&gt;
+&lt;p&gt;在这个挑战里, 你需要编写一个解释器来计算逆波兰表达式, 实现加减乘除四则运算.&lt;/p&gt;
+      
+      </description>
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="挑战 | 逆波兰表达式解释器"><blockquote><p>Copyright 2019 <a href="mailto:hisen@hisenz.com">HisenZhang</a></p></blockquote><p>1920年, 逆波兰表示法<code>Reverse Polish Notation</code>首次被提出. 不同于我们常用的中置表达式, 逆波兰表示法将操作符写在操作数后面, 例如阶乘<code>!</code>. </p><p>逆波兰表示法的这一特性适合使用栈<code>stack</code>来解析. 这种设计可以减少存储器访问. 因此在1960和1970年代, 逆波兰记法广泛应用于台式和手持计算器.</p><p>在这个挑战里, 你需要编写一个解释器来计算逆波兰表达式, 实现加减乘除四则运算.</p><a id="more"></a><h3 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h3><p><strong>输入样例 1</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">6 7 8 + *</span><br></pre></td></tr></table></figure><p><strong>输出样例 1</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">90</span><br></pre></td></tr></table></figure><p><strong>输入样例 2</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2.2 3 * 4 +</span><br></pre></td></tr></table></figure><p><strong>输出样例 2</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">10.6</span><br></pre></td></tr></table></figure><h3 id="完成度"><a href="#完成度" class="headerlink" title="完成度"></a><strong>完成度</strong></h3><p>本挑战的完成度分为两个等级</p><ol><li>可以解析个位数的操作数</li><li>可以解析多位操作数(包括浮点数)</li></ol><h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><ol><li>学习栈<code>stack</code>结构与栈的操作</li><li>强化列表与字符串的操作</li><li>强化四则运算的编程</li><li>强化条件/循环语句</li></ol><h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>访问OneDrive以获取相关材料</p><iframe src="https://onedrive.live.com/embed?cid=8CBB3C51F3734709&resid=8CBB3C51F3734709%211334&authkey=AGFW-CkDnflM7fw" width="165" height="128" frameborder="0" scrolling="no"></iframe><ol><li>中文维基百科: <ul><li><code>reverse_polish_notation.pdf</code></li></ul></li><li>视频 &amp; 英语字幕: <ul><li><code>Reverse Polish Notation and The Stack - Computerphile.m4v</code> </li><li><code>Reverse Polish Notation and The Stack - Computerphile.ass</code></li></ul></li><li>从零开始学Python(第二版)节选<ul><li><code>list_functions.pdf</code></li></ul></li></ol><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><ol><li>列表对象有两个方法: <ul><li><code>append()</code></li><li><code>pop()</code></li></ul></li><li>字符串对象有个方法:<ul><li><code>strip()</code></li></ul></li></ol>]]></content:encoded>
+      
+      <comments>https://hisenz.com/post/rpn-challenge/#disqus_thread</comments>
     </item>
     
     <item>
