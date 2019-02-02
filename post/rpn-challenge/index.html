@@ -70,7 +70,7 @@
 
 
 
-  <meta name="keywords" content="News,">
+  <meta name="keywords" content="Resources,Python,">
 
 
 
@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta name="keywords" content="News">
+<meta name="description" content="Copyright 2019 HisenZhang  1920年, 逆波兰表示法Reverse Polish Notation首次被提出. 不同于我们常用的中置表达式, 逆波兰表示法将操作符写在操作数后面, 例如阶乘!.  逆波兰表示法的这一特性适合使用栈stack来解析. 这种设计可以减少存储器访问. 因此在1960和1970年代, 逆波兰记法广泛应用于台式和手持计算器. 在这个挑战里, 你需">
+<meta name="keywords" content="Resources,Python">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://hisenz.com/post/hello-world/index.html">
-<meta property="og:site_name" content="Hisen&#39;s Blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:title" content="挑战 | 逆波兰表达式解释器">
+<meta property="og:url" content="https://hisenz.com/post/rpn-challenge/index.html">
+<meta property="og:site_name" content="海森的博客">
+<meta property="og:description" content="Copyright 2019 HisenZhang  1920年, 逆波兰表示法Reverse Polish Notation首次被提出. 不同于我们常用的中置表达式, 逆波兰表示法将操作符写在操作数后面, 例如阶乘!.  逆波兰表示法的这一特性适合使用栈stack来解析. 这种设计可以减少存储器访问. 因此在1960和1970年代, 逆波兰记法广泛应用于台式和手持计算器. 在这个挑战里, 你需">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2018-12-31T14:01:34.129Z">
+<meta property="og:updated_time" content="2019-02-02T09:09:19.189Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="挑战 | 逆波兰表达式解释器">
+<meta name="twitter:description" content="Copyright 2019 HisenZhang  1920年, 逆波兰表示法Reverse Polish Notation首次被提出. 不同于我们常用的中置表达式, 逆波兰表示法将操作符写在操作数后面, 例如阶乘!.  逆波兰表示法的这一特性适合使用栈stack来解析. 这种设计可以减少存储器访问. 因此在1960和1970年代, 逆波兰记法广泛应用于台式和手持计算器. 在这个挑战里, 你需">
 
 
 
@@ -122,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="https://hisenz.com/post/hello-world/">
+  <link rel="canonical" href="https://hisenz.com/post/rpn-challenge/">
 
 
 
 
 
-  <title>Hello World | Hisen's Blog</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title>挑战 | 逆波兰表达式解释器 | 海森的博客</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
 
 
@@ -158,7 +158,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hisen's Blog</span>
+        <span class="site-title">海森的博客</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -183,12 +183,52 @@
     <ul id="menu" class="menu">
       
         
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
+        <li class="menu-item menu-item-tech">
+          <a href="/categories/Technology" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-terminal"></i> <br>
             
-            Home
+            Tech
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-food">
+          <a href="/categories/Foods" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-cutlery"></i> <br>
+            
+            Food
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-music">
+          <a href="/categories/Musics" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-music"></i> <br>
+            
+            Music
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-spark">
+          <a href="/categories/Sparks" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>
+            
+            Spark
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-lecture">
+          <a href="/categories/Lectures" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-graduation-cap"></i> <br>
+            
+            Lecture
           </a>
         </li>
       
@@ -199,26 +239,6 @@
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
             Archives
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
-            
-            Tags
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-rss">
-          <a href="/rss2.xml" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-rss"></i> <br>
-            
-            Rss
           </a>
         </li>
       
@@ -265,7 +285,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://hisenz.com/post/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://hisenz.com/post/rpn-challenge/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Hisen Zhang">
@@ -274,7 +294,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hisen's Blog">
+      <meta itemprop="name" content="海森的博客">
     </span>
 
     
@@ -282,7 +302,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">Hello World</h2>
+          <h2 class="post-title" itemprop="name headline">挑战 | 逆波兰表达式解释器</h2>
         
 
         <div class="post-meta">
@@ -294,8 +314,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-12T20:08:44+08:00">
-                2018-04-12
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-02T17:09:19+08:00">
+                2019-02-02
               </time>
             
 
@@ -305,6 +325,28 @@
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/Lectures/" itemprop="url" rel="index">
+                    <span itemprop="name">Lectures</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -313,8 +355,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/post/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="post/hello-world/" itemprop="commentCount"></span>
+                <a href="/post/rpn-challenge/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="post/rpn-challenge/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -342,15 +384,61 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" rel="external nofollow noopener noreferrer" target="_blank">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" rel="external nofollow noopener noreferrer" target="_blank">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" rel="external nofollow noopener noreferrer" target="_blank">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" rel="external nofollow noopener noreferrer" target="_blank">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" rel="external nofollow noopener noreferrer" target="_blank">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" rel="external nofollow noopener noreferrer" target="_blank">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" rel="external nofollow noopener noreferrer" target="_blank">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" rel="external nofollow noopener noreferrer" target="_blank">Deployment</a></p>
+        <blockquote>
+<p>Copyright 2019 <a href="mailto:hisen@hisenz.com">HisenZhang</a></p>
+</blockquote>
+<p>1920年, 逆波兰表示法<code>Reverse Polish Notation</code>首次被提出. 不同于我们常用的中置表达式, 逆波兰表示法将操作符写在操作数后面, 例如阶乘<code>!</code>. </p>
+<p>逆波兰表示法的这一特性适合使用栈<code>stack</code>来解析. 这种设计可以减少存储器访问. 因此在1960和1970年代, 逆波兰记法广泛应用于台式和手持计算器.</p>
+<p>在这个挑战里, 你需要编写一个解释器来计算逆波兰表达式, 实现加减乘除四则运算.</p>
+<a id="more"></a>
+<h3 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h3><p><strong>输入样例 1</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">6 7 8 + *</span><br></pre></td></tr></table></figure>
+<p><strong>输出样例 1</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">90</span><br></pre></td></tr></table></figure>
+<p><strong>输入样例 2</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2.2 3 * 4 +</span><br></pre></td></tr></table></figure>
+<p><strong>输出样例 2</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">10.6</span><br></pre></td></tr></table></figure>
+<h3 id="完成度"><a href="#完成度" class="headerlink" title="完成度"></a><strong>完成度</strong></h3><p>本挑战的完成度分为两个等级</p>
+<ol>
+<li>可以解析个位数的操作数</li>
+<li>可以解析多位操作数(包括浮点数)</li>
+</ol>
+<h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><ol>
+<li>学习栈<code>stack</code>结构与栈的操作</li>
+<li>强化列表与字符串的操作</li>
+<li>强化四则运算的编程</li>
+<li>强化条件/循环语句</li>
+</ol>
+<h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>访问OneDrive以获取相关材料</p>
+<iframe src="https://onedrive.live.com/embed?cid=8CBB3C51F3734709&resid=8CBB3C51F3734709%211334&authkey=AGFW-CkDnflM7fw" width="165" height="128" frameborder="0" scrolling="no"></iframe>
+
+<ol>
+<li>中文维基百科: <ul>
+<li><code>reverse_polish_notation.pdf</code></li>
+</ul>
+</li>
+<li>视频 &amp; 英语字幕: <ul>
+<li><code>Reverse Polish Notation and The Stack - Computerphile.m4v</code> </li>
+<li><code>Reverse Polish Notation and The Stack - Computerphile.ass</code></li>
+</ul>
+</li>
+<li>从零开始学Python(第二版)节选<ul>
+<li><code>list_functions.pdf</code></li>
+</ul>
+</li>
+</ol>
+<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><ol>
+<li>列表对象有两个方法: <ul>
+<li><code>append()</code></li>
+<li><code>pop()</code></li>
+</ul>
+</li>
+<li>字符串对象有个方法:<ul>
+<li><code>strip()</code></li>
+</ul>
+</li>
+</ol>
 
       
     </div>
@@ -371,7 +459,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>Post link:</strong>
-    <a href="https://hisenz.com/post/hello-world/" title="Hello World">https://hisenz.com/post/hello-world/</a>
+    <a href="https://hisenz.com/post/rpn-challenge/" title="挑战 | 逆波兰表达式解释器">https://hisenz.com/post/rpn-challenge/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice: </strong>
@@ -386,7 +474,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/News/" rel="tag"># News</a>
+            <a href="/tags/Resources/" rel="tag"># Resources</a>
+          
+            <a href="/tags/Python/" rel="tag"># Python</a>
           
         </div>
       
@@ -399,8 +489,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/post/First-Blog-with-Hexo/" rel="next" title="First Blog With Hexo">
-                <i class="fa fa-chevron-left"></i> First Blog With Hexo
+              <a href="/post/alone-in-the-desert/" rel="next" title="意境 | 末日">
+                <i class="fa fa-chevron-left"></i> 意境 | 末日
               </a>
             
           </div>
@@ -408,10 +498,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/post/Birthday-Notes/" rel="prev" title="Birthday Notes">
-                Birthday Notes <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -507,13 +593,22 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">categories</span>
+                
+              </div>
+            
 
             
               
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
@@ -580,7 +675,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#样例"><span class="nav-number">1.</span> <span class="nav-text">样例</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#完成度"><span class="nav-number">2.</span> <span class="nav-text">完成度</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#目标"><span class="nav-number"></span> <span class="nav-text">目标</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#材料"><span class="nav-number"></span> <span class="nav-text">材料</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#提示"><span class="nav-number"></span> <span class="nav-text">提示</span></a></li></div>
             
 
           </div>
@@ -750,9 +845,9 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'https://hisenz.com/post/hello-world/';
-          this.page.identifier = 'post/hello-world/';
-          this.page.title = 'Hello World';
+          this.page.url = 'https://hisenz.com/post/rpn-challenge/';
+          this.page.identifier = 'post/rpn-challenge/';
+          this.page.title = '挑战 | 逆波兰表达式解释器';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://hisenz.disqus.com/embed.js';
