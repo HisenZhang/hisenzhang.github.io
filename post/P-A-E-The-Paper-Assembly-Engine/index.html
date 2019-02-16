@@ -88,7 +88,7 @@
 <meta property="og:image" content="https://s1.ax1x.com/2018/07/24/PYnOLF.png">
 <meta property="og:image" content="https://s1.ax1x.com/2018/07/24/PYy7M6.png">
 <meta property="og:image" content="https://s1.ax1x.com/2018/07/24/PYnvdJ.png">
-<meta property="og:updated_time" content="2019-02-02T09:07:10.713Z">
+<meta property="og:updated_time" content="2019-02-12T12:49:17.937Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="P.A.E. | Paper Assembly Engine">
 <meta name="twitter:description" content="We liberate millions of students and teachers from exam-oriented education by reducing attention and time dissipated on training, with the solution entirely directed by mathematical models. – Hisen Z">
@@ -194,7 +194,7 @@
       
         
         <li class="menu-item menu-item-food">
-          <a href="/categories/Foods" rel="section">
+          <a href="/categories/Food" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-cutlery"></i> <br>
             
@@ -204,7 +204,7 @@
       
         
         <li class="menu-item menu-item-music">
-          <a href="/categories/Musics" rel="section">
+          <a href="/categories/Music" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-music"></i> <br>
             
@@ -214,7 +214,7 @@
       
         
         <li class="menu-item menu-item-spark">
-          <a href="/categories/Sparks" rel="section">
+          <a href="/categories/Spark" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>
             
@@ -224,7 +224,7 @@
       
         
         <li class="menu-item menu-item-lecture">
-          <a href="/categories/Lectures" rel="section">
+          <a href="/categories/Lecture" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-graduation-cap"></i> <br>
             
@@ -419,7 +419,7 @@
 <ul>
 <li>The <code>AI Director</code> generates weights depending on feedback. </li>
 <li>The <code>Assembly Engine</code> assembles question papers referring to the weights. </li>
-<li>The <code>User Interface</code> Displays papers assembled and create feedback. </li>
+<li>The <code>User Interface</code> displays papers assembled and collects feedback. </li>
 </ul>
 <p><strong>Note:</strong> Chapter 2 describes the three subsystems in details.</p>
 <h4 id="The-Complete-System"><a href="#The-Complete-System" class="headerlink" title="The Complete System"></a>The Complete System</h4><p><img src="https://s1.ax1x.com/2018/07/24/PYy7M6.png" alt="complete_system2"></p>
@@ -432,9 +432,9 @@
 <p>In most cases, the database is read-only. When multi-user feature works, another database for storing account data should be deployed separately.</p>
 <p>Both <code>Assembly Engine</code> or <code>AI Director</code> may access to the quiz bank.</p>
 <h4 id="Components’-Visibility"><a href="#Components’-Visibility" class="headerlink" title="Components’ Visibility"></a>Components’ Visibility</h4><p><img src="https://s1.ax1x.com/2018/07/24/PYnvdJ.png" alt="visibility"></p>
-<p>Only the User Interface is visible to the users. The rest parts are running in the background. Communication across the line of visibility is implemented with HTTP restful API.</p>
+<p>Only the <code>User Interface</code> is visible to the users. The rest parts are running in the background. Communication across the line of visibility is implemented with HTTP restful API.</p>
 <h2 id="Components"><a href="#Components" class="headerlink" title="Components"></a>Components</h2><h3 id="Assembly-Engine"><a href="#Assembly-Engine" class="headerlink" title="Assembly Engine"></a>Assembly Engine</h3><p>The assembly engine takes weights as input. The questions selected are based on weights on different topics. The output is transmitted in JSON via the API. </p>
-<p>There are different modes for assembly engine to run. The mode is specified implicitly (or explicitly in some occasions) with the parameters passed to the API. </p>
+<p>There are different modes for assembly engine. The mode is specified implicitly (or explicitly in some occasions) with the parameters passed to the API. </p>
 <p>The interfaces and usage are listed below:</p>
 <table>
 <thead>
