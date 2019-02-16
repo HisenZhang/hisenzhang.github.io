@@ -8,8 +8,29 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>海森的博客 - 技术, 料理 &amp; 爵士乐</description>
-    <pubDate>Sat, 16 Feb 2019 09:22:51 GMT</pubDate>
+    <pubDate>Sat, 16 Feb 2019 09:36:18 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Start-Learning-Golang</title>
+      <link>https://hisenz.com/post/start-learning-golang/</link>
+      <guid>https://hisenz.com/post/start-learning-golang/</guid>
+      <pubDate>Sat, 16 Feb 2019 09:26:47 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;海森的博客&quot;&gt;
+
+&lt;p&gt;立个Flag. 二月底之前把&lt;a href=&quot;利用越界和溢出-C语言&quot;&gt;利用越界和溢出-C语言&lt;/a&gt;里Hash穷举的程序用Go语言实现出来.
+        
+      
+      </description>
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="海森的博客"><p>立个Flag. 二月底之前把<a href="利用越界和溢出-C语言">利用越界和溢出-C语言</a>里Hash穷举的程序用Go语言实现出来.</p>]]></content:encoded>
+      
+      <comments>https://hisenz.com/post/start-learning-golang/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>挑战 | Brainfuck语言解释器</title>
@@ -180,22 +201,6 @@
       <content:encoded><![CDATA[<p>本文译自The C Programming Language的4.7章节.</p><a id="more"></a><p><code>register</code>变量声明会告知编译器该变量会被频繁使用. <code>register</code>变量在运行时存放在机器的寄存器里, 这样生成的程序更短小, 速度也更快. 但是编译器也可能忽略这些建议.</p><p><code>register</code>变量的声明看起来像这样:</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">register</span> <span class="keyword">int</span>  x;</span><br><span class="line"><span class="keyword">register</span> <span class="keyword">char</span> c;</span><br></pre></td></tr></table></figure><p>这样的声明只可以用于局部变量和函数的形式参数. </p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">f(<span class="keyword">register</span> <span class="keyword">unsigned</span> m, <span class="keyword">register</span> <span class="keyword">long</span> n)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">register</span> <span class="keyword">int</span> i;</span><br><span class="line">    ...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>实际上, 寄存器变量受到一些来自于底层硬件的限制. 每个函数中只有一部分某种类型的变量才会被放在寄存器里. 但是过量的申明并不会造成不良后果, 因为过量的<code>register</code>声明会被编译器忽略. <code>register</code>修饰的变量也不可以被取地址(这个话题在第五章里讨论), 无论是否该变量真的放在寄存器里. 具体的数量和类型限制由特定的机器决定.</p>]]></content:encoded>
       
       <comments>https://hisenz.com/post/C%E8%AF%AD%E8%A8%80%E4%B9%8Bregister%E5%8F%98%E9%87%8F-%E8%AF%91%E8%87%AA-The-C-Programming-Language/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>C语言 | 头文件</title>
-      <link>https://hisenz.com/post/C%E8%AF%AD%E8%A8%80%E5%A4%B4%E6%96%87%E4%BB%B6-%E8%AF%91%E8%87%AA%E7%AB%A0%E8%8A%824-5-The-C-Programming-Language/</link>
-      <guid>https://hisenz.com/post/C%E8%AF%AD%E8%A8%80%E5%A4%B4%E6%96%87%E4%BB%B6-%E8%AF%91%E8%87%AA%E7%AB%A0%E8%8A%824-5-The-C-Programming-Language/</guid>
-      <pubDate>Thu, 13 Dec 2018 12:41:58 GMT</pubDate>
-      <description>
-      
-        &lt;p&gt;本文译自The C Programming Language的4.5章节.&lt;/p&gt;
-      
-      </description>
-      
-      <content:encoded><![CDATA[<p>本文译自The C Programming Language的4.5章节.</p><a id="more"></a><p>现在让我们考虑一下把刚刚编写的计算器程序拆分到几个源文件中, 因为以后每个功能的代码量会越来越多. 我们把主函数写在<code>main.c</code>; <code>push</code>, <code>pop</code>两个函数和其他变量放到<code>stack.c</code>里; <code>getop</code>放在<code>getop.c</code>. 最后把<code>getch</code>和<code>ungetch</code>写到第四个文件<code>getch.c</code>. 之所以把它们分散到不同的源文件中, 是因为他们在实际的工程项目里会被分别编译为库.</p><p>但是有一点要注意: 有些定义和声明同时被几个源文件引用. 我们需要尽可能的把它们集中在一起, 那么在后续的开发中我们只要维护好这个文件就可以了. 我们把这些需要共享的部分放在一个头文件<code>calc.h</code>里, 在需要它们的源文件里<code>#include</code>它. (<code>#include</code> 会在 4.11 章节讲述)</p><p>最终, 这个计算器程序看上去是这样的:</p><p><img src="https://s1.ax1x.com/2018/12/13/FN8LyF.png" alt="FN8LyF.png"></p><p>这么一来, 要么每个源文件只能访问到它需要的信息, 要么有大量的头文件需要维护(在实际工程里这很困难). 权衡利弊,我们选择前者. 在一些中等规模的项目中, 最好的方法往往是通过单一的头文件来包括所有需要被共享的部分; 这也是我们在这里的做法. 在大型的程序中有更多的头文件, 项目结构也需要更加精心的设计. </p>]]></content:encoded>
-      
-      <comments>https://hisenz.com/post/C%E8%AF%AD%E8%A8%80%E5%A4%B4%E6%96%87%E4%BB%B6-%E8%AF%91%E8%87%AA%E7%AB%A0%E8%8A%824-5-The-C-Programming-Language/#disqus_thread</comments>
     </item>
     
   </channel>
