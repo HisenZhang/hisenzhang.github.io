@@ -88,7 +88,7 @@
 <meta property="og:image" content="https://img.vim-cn.com/ab/0ae6b54603d721196f056c3d377a11ca7028e0.png">
 <meta property="og:image" content="https://img.vim-cn.com/ae/1b6f9da809fafa99be9907cbaf2eab4fc027cc.jpg">
 <meta property="og:image" content="https://img.vim-cn.com/11/122d5b0b9965577a5213f202609e5277b207a1.gif">
-<meta property="og:updated_time" content="2019-03-07T06:15:19.130Z">
+<meta property="og:updated_time" content="2019-03-07T06:18:38.393Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="C语言 | 从内存视角看函数和指针的本质">
 <meta name="twitter:description" content="近期在尝试编写一个Simpson&amp;#39;s Rule近似数值积分的例子, 忽然想到可以把被积函数作为一个参数传入, 使这个积分函数更具有通用性. 这个例子我们会在文末作为实际应用来阐述. 在开始之前, 我们先要讨论一下C语言里的函数到底和函数调用到底是什么. 这篇文章篇幅较长, 且涉及较多示例和证明代码, 建议在桌面设备上阅读. 对于证明代码, 请务必亲自动手编译, 只有真正动手敲过的代码才">
@@ -388,6 +388,7 @@
 
 <p>近期在尝试编写一个<code>Simpson&#39;s Rule</code>近似数值积分的例子, 忽然想到可以把被积函数作为一个参数传入, 使这个积分函数更具有通用性. 这个例子我们会在文末作为实际应用来阐述. 在开始之前, 我们先要讨论一下C语言里的函数到底和函数调用到底是什么.</p>
 <p>这篇文章篇幅较长, 且涉及较多示例和证明代码, 建议在桌面设备上阅读. 对于证明代码, 请务必亲自动手编译, 只有真正动手敲过的代码才算有深入理解.</p>
+<a id="more"></a>
 <p>文章的第一节我们从指令和数据的区别出发, 窥见函数与调用的本质. 第二节分析函数在内存里的位置, 理解程序运行时的内存分布. 第三节在前两板块的基础上描述函数的调用和参数传递之细节. 第四节讨论值传参和指针传参, 包括如何将函数作为参数以传递. 第五节是围绕辛普森法积分例程讲解, 综合前文内容作为函数指针的应用演示.</p>
 <h2 id="函数与调用的本质"><a href="#函数与调用的本质" class="headerlink" title="函数与调用的本质"></a>函数与调用的本质</h2><h3 id="数据-vs-指令"><a href="#数据-vs-指令" class="headerlink" title="数据 vs. 指令"></a>数据 vs. 指令</h3><blockquote>
 <p>函数就是一段计算机指令的序列</p>
