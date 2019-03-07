@@ -85,7 +85,7 @@
 <meta property="og:site_name" content="海森的博客">
 <meta property="og:description" content="这篇文章以一道challenge为例, 讲述C语言的越界和溢出. 本篇也是自己的学习记录. 某日罗德大佬在群内分享了一道题:">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2019-02-02T09:07:10.717Z">
+<meta property="og:updated_time" content="2019-03-05T10:41:32.065Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="C语言 | 利用越界和溢出">
 <meta name="twitter:description" content="这篇文章以一道challenge为例, 讲述C语言的越界和溢出. 本篇也是自己的学习记录. 某日罗德大佬在群内分享了一道题:">
@@ -403,7 +403,7 @@
 <p>然而有一种特殊的情况, 使得绝对值函数会输出负数. 让我们来看一下<code>h&lt;0?-h:h</code>的C语言与反汇编代码<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// abs.c</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">abs</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">return</span> x&lt;<span class="number">0</span>?-x:x;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <p>编译&amp;反汇编<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># --no-builtin 排除掉了内建的函数</span></span><br><span class="line">gcc -c abs.c --no-builtin </span><br><span class="line"></span><br><span class="line"><span class="comment"># 反汇编</span></span><br><span class="line">objdump -d abs.o</span><br></pre></td></tr></table></figure></p>
 <p>以下是排版稍作调整的结果, 去掉了偏移</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">push   %rbp</span><br><span class="line">mov    %rsp,%rbp</span><br><span class="line">mov    %edi,-0x4(%rbp)  ; pass parameter</span><br><span class="line">mov    -0x4(%rbp),%eax  ; save it in eax</span><br><span class="line">cltd                    ; sign-extend: see below</span><br><span class="line">mov    %edx,%eax        ; </span><br><span class="line">xor    -0x4(%rbp),%eax  ; it depends: see below</span><br><span class="line">sub    %edx,%eax	;</span><br><span class="line">pop    %rbp</span><br><span class="line">retq</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">push   %rbp</span><br><span class="line">mov    %rsp,%rbp</span><br><span class="line">mov    %edi,-0x4(%rbp)  ; pass parameter</span><br><span class="line">mov    -0x4(%rbp),%eax  ; save it in eax</span><br><span class="line">cltd                    ; sign-extend: see below</span><br><span class="line">mov    %edx,%eax        ; </span><br><span class="line">xor    -0x4(%rbp),%eax  ; it depends: see below</span><br><span class="line">sub    %edx,%eax</span><br><span class="line">pop    %rbp</span><br><span class="line">retq</span><br></pre></td></tr></table></figure>
 <p>注意第5行指令<code>cltd</code>. 该指令做符号位拓展. 若<code>eax</code>的符号位为0(<code>eax</code>值非负), 则<code>edx</code>全部置0; 否则全部置1. 例如, 当<code>eax</code>为<code>0x7F000000</code>,<code>edx</code>会变成<code>0x00000000</code>.如果<code>eax</code>为<code>0x80000000</code>,<code>edx</code>会变成<code>0xFFFFFFFF</code>. 请参考SO上<a href="https://stackoverflow.com/a/17170478" rel="external nofollow noopener noreferrer" target="_blank">这个回答</a>和维基百科对<a href="https://en.m.wikipedia.org/wiki/Sign_bit" rel="external nofollow noopener noreferrer" target="_blank">符号位的介绍</a>.</p>
 <p>下面我们来看第7-8行的异或和减法:</p>
 <ol>
@@ -614,7 +614,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">13</span>
+                  <span class="site-state-item-count">12</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
