@@ -88,7 +88,7 @@
 <meta property="og:image" content="https://img.vim-cn.com/ab/0ae6b54603d721196f056c3d377a11ca7028e0.png">
 <meta property="og:image" content="https://img.vim-cn.com/ae/1b6f9da809fafa99be9907cbaf2eab4fc027cc.jpg">
 <meta property="og:image" content="https://img.vim-cn.com/11/122d5b0b9965577a5213f202609e5277b207a1.gif">
-<meta property="og:updated_time" content="2019-03-07T06:18:38.393Z">
+<meta property="og:updated_time" content="2019-03-07T08:31:17.537Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="C语言 | 从内存视角看函数和指针的本质">
 <meta name="twitter:description" content="近期在尝试编写一个Simpson&amp;#39;s Rule近似数值积分的例子, 忽然想到可以把被积函数作为一个参数传入, 使这个积分函数更具有通用性. 这个例子我们会在文末作为实际应用来阐述. 在开始之前, 我们先要讨论一下C语言里的函数到底和函数调用到底是什么. 这篇文章篇幅较长, 且涉及较多示例和证明代码, 建议在桌面设备上阅读. 对于证明代码, 请务必亲自动手编译, 只有真正动手敲过的代码才">
@@ -446,7 +446,7 @@
 </li>
 <li><p>initialized</p>
 <p> 这里存放代码里初始化的变量.</p>
-<p> 注意, 这里两个变量都是全局变量, declare在所有函数之外, 使用<code>extern</code>引入. 为什么不直接在主函数里声明呢? 其实如果仔细阅读了stack这一段的话, 你会意识到函数内声明的变量都是分配在栈上的. main函数也是函数, 如果在. </p>
+<p> 注意, 这里两个变量都是全局变量, declare在所有函数之外, 使用<code>extern</code>引入. 为什么不直接在主函数里声明呢? 其实如果仔细阅读了stack这一段的话, 你会意识到函数内声明的变量都是分配在栈上的. main函数也是函数, 如果在函数内定义变量, 则会默认在栈上分配空间. </p>
 </li>
 <li><p>text</p>
 <p> 文本段, 存放程序代码和字符串常量. 我们打印了函数show_stack的地址(等同于其入口地址).</p>
@@ -491,7 +491,7 @@
 <ol>
 <li><p>当数据过多时, 我们可以不直接告诉函数所需的数据是什么, 而是告诉函数去哪里寻找这些数据. 这就是用指针传参的思想 - 告诉函数所需数据的内存地址. 由于参数的大小最多只有机器字长, 理论上可通过寄存器来传递, 极大提高速度. </p>
 </li>
-<li><p>由于指针引用的是源数据而不是副本, 所做的更改会被保留. 这就奠定了C用结构体来实现多个返回值<br>的基础. libcurl里有许多这样的例子.</p>
+<li><p>由于指针引用的是源数据而不是副本, 所做的更改会被保留. 这就奠定了C用结构体来实现多个返回值的基础. libcurl里有许多这样的例子.</p>
 </li>
 </ol>
 <p>下面两个例程分别演示了这两点. </p>
