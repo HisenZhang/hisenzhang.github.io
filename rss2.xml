@@ -8,8 +8,67 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>海森的博客 - 技术, 料理 &amp; 爵士乐</description>
-    <pubDate>Mon, 27 May 2019 12:12:43 GMT</pubDate>
+    <pubDate>Thu, 06 Jun 2019 04:46:18 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>现实世界, 理念世界和永恒</title>
+      <link>https://hisenz.com/post/the-republic/</link>
+      <guid>https://hisenz.com/post/the-republic/</guid>
+      <pubDate>Wed, 05 Jun 2019 08:34:12 GMT</pubDate>
+      <description>
+      
+        &lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;海森的博客&quot;&gt;&lt;p&gt;本文谈论现实世界, 理念世界和永恒之间的联系. 下文的观点基于柏拉图的”理念”理论, 加以个人的观察思考拓展得到.&lt;/p&gt;
+      
+      </description>
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="海森的博客"><p>本文谈论现实世界, 理念世界和永恒之间的联系. 下文的观点基于柏拉图的”理念”理论, 加以个人的观察思考拓展得到.</p><a id="more"></a><p>现实世界变化万千. 我们尝试着观测这个世界: 每一天的股价波动不息, 每一天都有新的限量商品发售, 并有人为争夺而斗殴. 可是你无法准确地凭借过去的观测数据来预测下一秒会发生什么.</p><p>理念世界却是永恒的世界. 理念世界不是我们能够感知的图景, 不是”完美版的现实世界”, 却像是理性的极致.</p><p>现实世界只是理念世界的一个的投影.</p><p>三维的圆周运动在二维上给出简谐投影, 高维空间里简单的运动在低维上看起来如此的复杂. 我们所处在的大千世界令人眼花缭乱, 谁知道这会不会仅仅是理念空间简单现象的一个投影呢？</p><p>当局者迷, 旁观者清, 这道理人尽皆知. 只不过, 想要从当局者的视角里跳出来, 绝非什么容易的事情. 生活在三维空间我们难以理解四维空间, 正如二维纸片人无法了解三维的世界.</p><p>“现实世界”一词包含着一个”实”字, 而它却是虚的. 我们观测到的现实世界是投影, 是幻象, 是镜中花水中月. 这就是万物皆虚, 万事皆允的道理.</p><p>相反, 理念世界才是那一份人们所追求的真实.</p><p>人们妄图长生不老. 人们妄图相爱一生一世. 人们妄图在一个虚世界里找到所谓的永恒, 这是荒谬可笑的. 现实世界不存在永恒, 唯一能找到永恒的地方是理念世界, 因为它也就是永恒本身.</p>]]></content:encoded>
+      
+      <comments>https://hisenz.com/post/the-republic/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>没有捷径</title>
+      <link>https://hisenz.com/post/commute/</link>
+      <guid>https://hisenz.com/post/commute/</guid>
+      <pubDate>Mon, 03 Jun 2019 04:35:57 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;海森的博客&quot;&gt;&lt;p&gt;规划交通方式的时候, 我们希望省时省钱省力三要素齐备. 但是, 往往三者不可得兼.&lt;/p&gt;&lt;p&gt;省力省钱的代表有巴士和地铁. 但是当遇上通勤高峰的
+        
+      
+      </description>
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="海森的博客"><p>规划交通方式的时候, 我们希望省时省钱省力三要素齐备. 但是, 往往三者不可得兼.</p><p>省力省钱的代表有巴士和地铁. 但是当遇上通勤高峰的时候, 它们就只有省钱的优势了.</p><p>省时省钱的短途, 单车是很不错的选择. <del>如果是老司机那它就是不二的交通方式了.</del></p><p>要省时省力又不差钱的话, 直接打车. 可是陷入早晚高峰的话, 也不见得省时.</p><p>还是那句话：没有捷径. 走捷径总是有额外代价的.</p>]]></content:encoded>
+      
+      <comments>https://hisenz.com/post/commute/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>这半年: 2019</title>
+      <link>https://hisenz.com/post/mid-year-2019/</link>
+      <guid>https://hisenz.com/post/mid-year-2019/</guid>
+      <pubDate>Thu, 30 May 2019 05:36:15 GMT</pubDate>
+      <description>
+      
+        &lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;海森的博客&quot;&gt;&lt;p&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css&quot;&gt;&lt;/p&gt;&lt;script src=&quot;https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js&quot;&gt;&lt;/script&gt;&lt;div id=&quot;aplayer&quot;&gt;&lt;/div&gt;&lt;script&gt;const ap = new APlayer({
+    container: document.getElementById(&#39;aplayer&#39;),
+    audio: [{
+        name: &#39;被遗忘的时光&#39;,
+        artist: &#39;蔡琴&#39;,
+        url:&#39;https://img.vim-cn.com/bb/af1d1a45db1e7a7dd36839113fe0a8d003939a.mp2&#39;,
+        cover: &#39;http://p2.music.126.net/XmO9qAnorsMO4QUkkHGBbQ==/109951163376778417.jpg?param=300x300&#39;
+    }]
+});&lt;/script&gt;&lt;p&gt;自去年十二月的年度总结以来，一直到这一篇怎么看都不像总结的年中回顾， 我总共写了14篇博文。板块方面分布如下：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;技术版2篇&lt;/li&gt;&lt;li&gt;料理版5篇&lt;/li&gt;&lt;li&gt;音乐版3篇&lt;/li&gt;&lt;li&gt;生活版4篇&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;del&gt;恭喜&amp;amp;撒花 海森由技术博主正式转型为美食博主！&lt;/del&gt;&lt;/p&gt;&lt;p&gt;本无意写总结，但总想整理这些日子写过的文章，以回顾一下申请季结束后这半年来我到底做了些什么， 想了些什么。&lt;/p&gt;
+      
+      </description>
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="海森的博客"><p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css"></p><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><div id="aplayer"></div><script>const ap = new APlayer({    container: document.getElementById('aplayer'),    audio: [{        name: '被遗忘的时光',        artist: '蔡琴',        url:'https://img.vim-cn.com/bb/af1d1a45db1e7a7dd36839113fe0a8d003939a.mp2',        cover: 'http://p2.music.126.net/XmO9qAnorsMO4QUkkHGBbQ==/109951163376778417.jpg?param=300x300'    }]});</script><p>自去年十二月的年度总结以来，一直到这一篇怎么看都不像总结的年中回顾， 我总共写了14篇博文。板块方面分布如下：</p><ul><li>技术版2篇</li><li>料理版5篇</li><li>音乐版3篇</li><li>生活版4篇</li></ul><p><del>恭喜&amp;撒花 海森由技术博主正式转型为美食博主！</del></p><p>本无意写总结，但总想整理这些日子写过的文章，以回顾一下申请季结束后这半年来我到底做了些什么， 想了些什么。</p><a id="more"></a><h2 id="这半年来…"><a href="#这半年来…" class="headerlink" title="这半年来…"></a>这半年来…</h2><h3 id="新年"><a href="#新年" class="headerlink" title="新年"></a>新年</h3><p>在年终总结挖完坑之后，<del>总觉得新年第一篇文章直接咕掉不太好</del>实在想动手试一试舒肥烹调，于是马上动手开始试验。这也是自我在博客划分板块后，料理版更新的第一篇文章<del>，避免博客里突兀出现一个空板块</del>。</p><p>新年的时候或许还有点丧，事实上这样糟糕的情绪一直持续到申请结束之后的一个时期（或许寒假时候还没有恢复过来）。</p><p>我接到offer是在一月中的时候。那之后，我的申请季就算结束了。</p><p>突然地就这么结束了。</p><p>我本以为申请季会是漫长而痛苦的，谁知真的是一眨眼就过去的事。随黑暗离去而来的就是大片的空白。光明前途，白的一尘不染！光亮的刺眼！我有了大段的空闲时间，我什么都想做；而选择的机会成本太高，我什么都不敢做。</p><h3 id="寒假"><a href="#寒假" class="headerlink" title="寒假"></a>寒假</h3><p>讲道理，寒假里我其实有大量的好时机用于阅读，可是大概当时还没有从过去备考的状态中脱身出来，只是想着放松放松，于是真的一眨眼就浪费了半个月的时间。</p><p>除此之外第一次商业化的讲课经历，不管怎么说还是很宝贵。这个过程里我从对面的视角重新摸清楚一个培训班的大致运营框架和一些细节流程。比如，人们爱听的内容不一定是帮助最大的，而是最符合他们期望的。 而期望则来自于社会上对于该技能的普遍认知。因此要想设计受欢迎的课程，需要注意参考主流观念。</p><h3 id="Mock前"><a href="#Mock前" class="headerlink" title="Mock前"></a>Mock前</h3><p>这一段时间里突然对电子学发烧，大概是寒假前阅读了很多关于SDR的文章，自己也体验了一把RTL-SDR，重新唤起了小学时候对于电子学的热情。</p><p>小学的时候由老师带着，制作过一些简单的电路。从简单的机器人开始，一步一步做到复杂的无线电测向机 - 说实在的，对于当时的我而言，难度单纯只是焊接技巧方面的 - 因为我不懂电路的工作原理。关于无线电侧向，也有一个黄金准则（其实我使用的唯一技巧）：按住单向按钮，然后哪里信号强就往哪里跑。不管怎么说，小学时候留下的这些电子学基础还是在成年之际重新唤醒，并且或许会成为日后主要的工作方向…谁会想到小学里的社团活动会给一个人在多年之后带来如此深远的影响！</p><p>四月份还有一件重大的事情，那就是第一张黑洞图像的公布。人们在无尽的太空中探索，不免想到无限的虚空之中的独自前行。虚空中，我看到白色雾霭遮蔽无穷远的未知，一时感慨万千，写下了这一篇。</p><h3 id="CIE"><a href="#CIE" class="headerlink" title="CIE"></a>CIE</h3><p>CIE，按照计划里，该是乖乖考试的时间。实际上我想错了。</p><p>这段时间如此空闲。读了三年来想读的书。看了两部歌剧。补了一些电影。这些听上去如此简单的事情，我过去要么没时间做，要么觉得”性价比”太低，让位给其他事情了。我一度以为fiction没什么用，不读也罢。在过去的两年多里，我看过的小说大约也只有三四本。重新拾起fiction开始阅读，才发现fiction的意义不像是工具书的意义。阅读小说，我得到的是积淀。某一天在某个场景下，突然想起这不是某一部小说里演绎过的情节吗？我处理的比小说更得体吗？</p><p>无用的事，往往并非无用。无聊的事，往往也并非无聊。很可能只是自己没到那个境界罢。</p><h2 id="接下来…"><a href="#接下来…" class="headerlink" title="接下来…"></a>接下来…</h2><p>在接下来的一个月里，海森将要花费他生命中的一个月在旅行上。</p><p>虽有佳肴，弗食，不知其旨也。<del>躺在床上空想旅行而天天当死宅自然是不行的。</del>然而旅行很难说走就走，尤其对于学生党来说，钱和时间总是最大的两个问题。天时地利，这两大问题同时解决，那么便预示行动开始的信号了！</p><p>我反感短途旅行。走马观花，其实你并不能了解什么，也就无从谈起行万里路的功效。找个地方住下，和当地居民聊聊天，细细感受生活在一座陌生城市里的体验，这才足以揭示旅行的意义吧。</p><p>或许做几期爵士乐电台。或许沉浸在嵌入式开发的深渊里。无穷的可能性，这才是未来。</p><h2 id="一些想法"><a href="#一些想法" class="headerlink" title="一些想法"></a>一些想法</h2><h3 id="Of-knowledge-experience-and-wisdom"><a href="#Of-knowledge-experience-and-wisdom" class="headerlink" title="Of knowledge, experience and wisdom"></a>Of knowledge, experience and wisdom</h3><p>知识不是经历<br>经历不是经验<br>经验不是能力<br>能力不是智慧</p><h3 id="写博客两年半…"><a href="#写博客两年半…" class="headerlink" title="写博客两年半…"></a>写博客两年半…</h3><p>很久以前，我还会为下一篇博文写些什么而发愁。</p><p>渐渐的，我发现随着文章越写越多，思路会变的广阔。一方面是写着写着自己对博客的定位慢慢的清晰起来，而一旦明确了方向，许多的话题都会自然而然地浮现出来；另一方面归功于先前的文章往往会留下一些坑，于是乎填坑也成了一个重要的写作动力。</p><p>那么下半年，期待更多的知识和精力转化为wisdom吧。</p>]]></content:encoded>
+      
+      <comments>https://hisenz.com/post/mid-year-2019/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>料理 | 牛肉蔬菜浓汤</title>
@@ -28,22 +87,6 @@
     </item>
     
     <item>
-      <title>料理 | 基于食材的料理练习</title>
-      <link>https://hisenz.com/post/ingredient-based-study/</link>
-      <guid>https://hisenz.com/post/ingredient-based-study/</guid>
-      <pubDate>Sun, 26 May 2019 12:47:19 GMT</pubDate>
-      <description>
-      
-        &lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;料理 | 基于食材的料理练习&quot;&gt;&lt;p&gt;有的蔬菜吸油, 有的蔬菜不吸油. 这由食材本身的特性决定.&lt;/p&gt;&lt;p&gt;依我目前的浅见, 料理这门学问的核心是如何使手上的食材发挥出最大的潜力. 因此, 学习料理的第一步也就是熟悉各种食材的特性. 只有当厨师对于基本的食材特性了然于胸的时候, 卓越和创新才会成为可能.&lt;/p&gt;
-      
-      </description>
-      
-      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="料理 | 基于食材的料理练习"><p>有的蔬菜吸油, 有的蔬菜不吸油. 这由食材本身的特性决定.</p><p>依我目前的浅见, 料理这门学问的核心是如何使手上的食材发挥出最大的潜力. 因此, 学习料理的第一步也就是熟悉各种食材的特性. 只有当厨师对于基本的食材特性了然于胸的时候, 卓越和创新才会成为可能.</p><a id="more"></a><p>过去做的每一份料理, 我都是当做习作作品来对待的, 所用的食材(肉类)也是西餐中常见的牛肉和鸡肉. 这是我对于肉类特性的探索. 我的关注点主要就集中在它们的特性上. 比方说, 鸡肉的缩水比牛肉要严重, 鸡皮可以带来特殊的口感(牛肉则没有这个concern), 等等.</p><h2 id="基于菜品分类的练习"><a href="#基于菜品分类的练习" class="headerlink" title="基于菜品分类的练习"></a>基于菜品分类的练习</h2><p>我翻看过一些西餐烹饪指南. 绝大多数的这些指南都是设计为简单的菜谱, 而最常见的安排内容的方法则是依照菜品的类型(这个名词我暂时没想到合适的中文, 先如此称呼), 如前菜, 汤, 主菜, 甜品等等. 如此一来, 想要做个汤的时候, 目录一翻便可找到合适的条目开始动手.</p><p>当然, 我无意攻击这样的练习方式. 每个人都会找到最合适自己的方式, 且基于菜品分类的练习确实可以短时间内速成料理技术. 但是, 我的哲学是无意速成. <strong>走捷径总是要付出代价的.</strong></p><h2 id="基于食材的练习"><a href="#基于食材的练习" class="headerlink" title="基于食材的练习"></a>基于食材的练习</h2><p>但是对着菜谱做菜, 这最多也只是学了个形似. 想到做到神似, 要知其所以然.</p><p>同一种食材, 可能使用在前菜里, 也同样出现在main course中. 这就是对于食材的特性在不同的维度上加以利用而做到的: 这背后是对于食材特性有深入了解; 如果我们只注重于菜品类型, 则很难在食材处理想象力上有所突破.</p><p>最后, 思考下面的这个列表或许对你有所启发:</p><ol><li>小番茄</li><li>土豆</li><li>柠檬</li><li>牛尾</li><li>青瓜</li><li>苏打水</li><li>鼠尾草</li></ol><p>它们各自都有什么特点? 如何处理(或搭配)可以利用这些特点来呈现出风味? 这些风味可以放到一顿饭中的哪些环节?</p>]]></content:encoded>
-      
-      <comments>https://hisenz.com/post/ingredient-based-study/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>料理 | 鸡腿排练习</title>
       <link>https://hisenz.com/post/fried-chicken-2/</link>
       <guid>https://hisenz.com/post/fried-chicken-2/</guid>
@@ -57,6 +100,22 @@
       <content:encoded><![CDATA[<meta name="description" itemprop="description" content="料理 | 鸡腿排练习"><p>继上次的<a href="/post/fried-chicken">完美鸡腿排指南</a>, 这一次的练习做出了一些改进.</p><a id="more"></a><h2 id="复炸"><a href="#复炸" class="headerlink" title="复炸"></a>复炸</h2><p>上一次我采取了一次油炸的方式制作的鸡排, 外观看上去颜色较深. 为了解决这一问题, 这一次在炸制时候选择了更低的温度, 并且在开始呈现出金黄色的时候捞出, 重新裹粉并冷却. 随后提升油温, 较快的在油里过一遍, 捞起控油.</p><p>这里放两张图片作为对比</p><p><img src="https://s2.ax1x.com/2019/05/04/EdXE9K.jpg" alt=""></p><blockquote><p>一次油炸</p></blockquote><p><img src="https://s2.ax1x.com/2019/05/27/VZy1w4.jpg" alt=""></p><blockquote><p>二次油炸(复炸)</p></blockquote><p>可见复炸可以有效解决解决焦黑的问题.</p><p>可以使用厨房纸吸掉多余的油. 额外提一句. 厨房纸似乎在中国厨房里很少见 - 其实它很好用, 吸油吸水都很合适, 价格也不贵(我用的7块5买到两大卷), 一般超市纸制品的地方都有售.</p><h2 id="简单摆盘"><a href="#简单摆盘" class="headerlink" title="简单摆盘"></a>简单摆盘</h2><p>尝试了一下简单的摆盘布局. 立体堆积产生空间感, 加以新鲜薄荷叶撞色点缀.</p><p>目前正在研究这个方面的内容. 之后(小概率, 咕咕咕)会单独抽一篇来展开细节.</p><h2 id="百里香的添加"><a href="#百里香的添加" class="headerlink" title="百里香的添加"></a>百里香的添加</h2><p>为了验证百里香对于鸡肉烹调的重要性, 我这一次做了对比试验 - 其中有一块鸡肉在腌制的时候只放盐和黑胡椒. 事实证明这块鸡肉没有什么香气可言 - 主要是外面的脆壳带来的风味而吃不出鸡肉的风味.</p><h2 id="拍摄布光"><a href="#拍摄布光" class="headerlink" title="拍摄布光"></a>拍摄布光</h2><p>这一次既然有了<del>精致</del>走心的摆盘, 那么摄影就不能懈怠了. 由于桌面本身色调较暗的缘故, 我这一次选择使用较暗的环境光.(如上面两张图的对比, 上一次的背景光很亮)</p><p>主光源采用暖色的射灯, 垂直向下打在主体的右后方, 使得盘子上阴影不会过分夸张. 画面的右上角方向还有微弱的低色温环境光. 最后在后期处理的时候增强暗边, 可以使得注意力集中在画面的中心主体.</p><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>热咖啡浇入冰的苏打水, 竟有一丝微妙的甜味.</p><p>干杯[]~(￣▽￣)~*</p><p><img src="https://s2.ax1x.com/2019/05/27/VZyGk9.jpg" alt=""></p>]]></content:encoded>
       
       <comments>https://hisenz.com/post/fried-chicken-2/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>料理 | 基于食材的料理练习</title>
+      <link>https://hisenz.com/post/ingredient-based-study/</link>
+      <guid>https://hisenz.com/post/ingredient-based-study/</guid>
+      <pubDate>Sun, 26 May 2019 12:47:19 GMT</pubDate>
+      <description>
+      
+        &lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;料理 | 基于食材的料理练习&quot;&gt;&lt;p&gt;有的蔬菜吸油, 有的蔬菜不吸油. 这由食材本身的特性决定.&lt;/p&gt;&lt;p&gt;依我目前的浅见, 料理这门学问的核心是如何使手上的食材发挥出最大的潜力. 因此, 学习料理的第一步也就是熟悉各种食材的特性. 只有当厨师对于基本的食材特性了然于胸的时候, 卓越和创新才会成为可能.&lt;/p&gt;
+      
+      </description>
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="料理 | 基于食材的料理练习"><p>有的蔬菜吸油, 有的蔬菜不吸油. 这由食材本身的特性决定.</p><p>依我目前的浅见, 料理这门学问的核心是如何使手上的食材发挥出最大的潜力. 因此, 学习料理的第一步也就是熟悉各种食材的特性. 只有当厨师对于基本的食材特性了然于胸的时候, 卓越和创新才会成为可能.</p><a id="more"></a><p>过去做的每一份料理, 我都是当做习作作品来对待的, 所用的食材(肉类)也是西餐中常见的牛肉和鸡肉. 这是我对于肉类特性的探索. 我的关注点主要就集中在它们的特性上. 比方说, 鸡肉的缩水比牛肉要严重, 鸡皮可以带来特殊的口感(牛肉则没有这个concern), 等等.</p><h2 id="基于菜品分类的练习"><a href="#基于菜品分类的练习" class="headerlink" title="基于菜品分类的练习"></a>基于菜品分类的练习</h2><p>我翻看过一些西餐烹饪指南. 绝大多数的这些指南都是设计为简单的菜谱, 而最常见的安排内容的方法则是依照菜品的类型(这个名词我暂时没想到合适的中文, 先如此称呼), 如前菜, 汤, 主菜, 甜品等等. 如此一来, 想要做个汤的时候, 目录一翻便可找到合适的条目开始动手.</p><p>当然, 我无意攻击这样的练习方式. 每个人都会找到最合适自己的方式, 且基于菜品分类的练习确实可以短时间内速成料理技术. 但是, 我的哲学是无意速成. <strong>走捷径总是要付出代价的.</strong></p><h2 id="基于食材的练习"><a href="#基于食材的练习" class="headerlink" title="基于食材的练习"></a>基于食材的练习</h2><p>但是对着菜谱做菜, 这最多也只是学了个形似. 想到做到神似, 要知其所以然.</p><p>同一种食材, 可能使用在前菜里, 也同样出现在main course中. 这就是对于食材的特性在不同的维度上加以利用而做到的: 这背后是对于食材特性有深入了解; 如果我们只注重于菜品类型, 则很难在食材处理想象力上有所突破.</p><p>最后, 思考下面的这个列表或许对你有所启发:</p><ol><li>小番茄</li><li>土豆</li><li>柠檬</li><li>牛尾</li><li>青瓜</li><li>苏打水</li><li>鼠尾草</li></ol><p>它们各自都有什么特点? 如何处理(或搭配)可以利用这些特点来呈现出风味? 这些风味可以放到一顿饭中的哪些环节?</p>]]></content:encoded>
+      
+      <comments>https://hisenz.com/post/ingredient-based-study/#disqus_thread</comments>
     </item>
     
     <item>
@@ -121,54 +180,6 @@
       <content:encoded><![CDATA[<meta name="description" itemprop="description" content="海森的博客"><p>很多同学在Mac上通过Bootcamp安装了双系统之后, 由于种种原因, 想要卸载Windows操作系统并释放磁盘空间. 这一篇教程教你如何卸载Windows, 部分内容编译自StackOverflow的<a href="https://apple.stackexchange.com/a/344481" rel="external nofollow noopener noreferrer" target="_blank">这个回答</a>.</p><a id="more"></a><h2 id="Bootcamp-卸载"><a href="#Bootcamp-卸载" class="headerlink" title="Bootcamp 卸载"></a>Bootcamp 卸载</h2><p>由于Bootcamp分区的特殊性, 不可以直接通过格式化来释放空间.</p><p>在软件列表里打开Bootcamp, 按照向导提示完成. 如果出现了以下错误:</p><blockquote><p>The startup disk cannot be partitioned or restored to a single partition.</p></blockquote><p>请继续阅读以下部分.</p><h2 id="命令行卸载"><a href="#命令行卸载" class="headerlink" title="命令行卸载"></a>命令行卸载</h2><ol start="0"><li><p>打开磁盘实用程序(Disk Utility), 在左侧查看分区. 右侧的详细信息里中如果写有NTFS则表明这是个Windows分区. 记下这个分区的名字(左侧显示的名字).</p></li><li><p>在软件列表里搜索”terminal”, 打开终端(默认白底黑字的窗口).</p></li><li><p>格式化Windows分区:</p><blockquote><p>这一步操作不慎可能导致数据丢失.</p></blockquote><p>依次输入命令(大小写敏感, 每行末尾有回车):</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo diskutil eraseVolume free none disk0s4</span><br><span class="line">sudo diskutil eraseVolume free none disk0s3</span><br></pre></td></tr></table></figure><p>在输入第一行回车后会询问登录密码. 密码输入的时候没有回显. 输入完成后回车确认.<br>成功的输出看上去像这样</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Started erase on disk0s4 BOOTCAMP</span><br><span class="line">Unmounting disk</span><br><span class="line">Finished erase on disk0</span><br></pre></td></tr></table></figure><p>通常来说只有<code>disk0s3`</code>disk0s4<code>被占用. 少数机器</code>disk0s5`也被占用. 这种情况需要灵活应对, 把上面命令里的分区名改为需要擦除的分区名即可.</p></li><li><p>调整苹果分区大小<br>继续输入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo diskutil apfs resizeContainer disk0s2 0</span><br></pre></td></tr></table></figure><p>成功的输出看上去像这样</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">...(省略)</span><br><span class="line">Growing APFS data structures</span><br><span class="line">Finished APFS operation</span><br></pre></td></tr></table></figure></li><li><p>清理启动文件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo diskutil mount disk0s1</span><br><span class="line"><span class="built_in">cd</span> /Volumes/EFI/EFI</span><br><span class="line">rm -r Boot</span><br><span class="line">rm -r Microsoft</span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">diskutil unmount disk0s1</span><br></pre></td></tr></table></figure><p>rm这一步如果出现Error, 无需采取措施. 这个错误说明安装时候采用的是legacy方式.</p></li><li><p>所有工作已完成. 再次打开Disk Utility来确认刚刚的工作成果.</p></li></ol>]]></content:encoded>
       
       <comments>https://hisenz.com/post/remove-win-on-mac/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>挑战 | 身份证号校验</title>
-      <link>https://hisenz.com/post/id-card/</link>
-      <guid>https://hisenz.com/post/id-card/</guid>
-      <pubDate>Tue, 16 Apr 2019 04:47:05 GMT</pubDate>
-      <description>
-      
-        &lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;海森的博客&quot;&gt;&lt;blockquote&gt;&lt;p&gt;Copyright 2019 &lt;a href=&quot;mailto:hisen@hisenz.com&quot;&gt;HisenZhang&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;2013年开始中国全面使用第二代居民身份证. 目前我国公民身份证号码由18位数字组成: 前6位为&lt;code&gt;地址码&lt;/code&gt;, 第7至14位为&lt;code&gt;出生日期码&lt;/code&gt;, 第15至17位为&lt;code&gt;顺序码&lt;/code&gt;, 第18位为&lt;code&gt;校验码&lt;/code&gt;. 其中第18位&lt;code&gt;校验码&lt;/code&gt;用于快速检测身份证号是否合法(以防止输入错误等情况).&lt;/p&gt;&lt;p&gt;校验过程如下:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;将身份证号逐位乘以对应的&lt;strong&gt;权重&lt;/strong&gt;, 其中&lt;code&gt;X&lt;/code&gt;表示数字&lt;code&gt;10&lt;/code&gt;.&lt;/li&gt;&lt;li&gt;对上一步的结果求和&lt;/li&gt;&lt;li&gt;将校验和对&lt;code&gt;11&lt;/code&gt;取模 &lt;code&gt;mod 11&lt;/code&gt;&lt;/li&gt;&lt;li&gt;如果结果为&lt;code&gt;1&lt;/code&gt;, 则该身份证号合法.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;上述权重规定于&lt;strong&gt;中华人民共和国国家标准GB11643-1999&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;在这个挑战里, 你需要编写一个程序来检验输入的身份证号是否合法.&lt;/p&gt;
-      
-      </description>
-      
-      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="海森的博客"><blockquote><p>Copyright 2019 <a href="mailto:hisen@hisenz.com">HisenZhang</a></p></blockquote><p>2013年开始中国全面使用第二代居民身份证. 目前我国公民身份证号码由18位数字组成: 前6位为<code>地址码</code>, 第7至14位为<code>出生日期码</code>, 第15至17位为<code>顺序码</code>, 第18位为<code>校验码</code>. 其中第18位<code>校验码</code>用于快速检测身份证号是否合法(以防止输入错误等情况).</p><p>校验过程如下:</p><ol><li>将身份证号逐位乘以对应的<strong>权重</strong>, 其中<code>X</code>表示数字<code>10</code>.</li><li>对上一步的结果求和</li><li>将校验和对<code>11</code>取模 <code>mod 11</code></li><li>如果结果为<code>1</code>, 则该身份证号合法.</li></ol><p>上述权重规定于<strong>中华人民共和国国家标准GB11643-1999</strong>.</p><p>在这个挑战里, 你需要编写一个程序来检验输入的身份证号是否合法.</p><a id="more"></a><p>这里以身份证号<code>11010519491231002X</code>为例, 演示上述过程.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">序号 18 17 16 15 14 13 12 11 10 09 08 07 06 05 04 03 02 01 </span><br><span class="line">权重 07 09 10 05 08 04 02 01 06 03 07 09 10 05 08 04 02 01 </span><br><span class="line">号码 01 01 00 01 00 05 01 09 04 09 01 02 03 01 00 00 02 10</span><br></pre></td></tr></table></figure><ol><li><p>乘以权重并求和<br>$$<br>7\cdot1+9\cdot1+ …+1\cdot10 = 177<br>$$</p></li><li><p>对<code>11</code>取模<br>$$<br>177 \mod11 = 1<br>$$</p></li></ol><p>因为结果为<code>1</code>, 该身份证号有效.</p><h2 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h2><p>从标准输入接收一个身份证号码. 如果该输入是有效号码则输出<code>VALID</code>字样. 否则输出<code>INVALID</code>.</p><p><strong>输入样例 1</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">11010519491231002X</span><br></pre></td></tr></table></figure><p><strong>输出样例 1</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">VALID</span><br></pre></td></tr></table></figure><p><strong>输入样例 2</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">330301194912310021</span><br></pre></td></tr></table></figure><p><strong>输出样例 2</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INVALID</span><br></pre></td></tr></table></figure><h2 id="完成度"><a href="#完成度" class="headerlink" title="完成度"></a>完成度</h2><p>本挑战的完成度分为两个等级</p><ol><li>可以求出校验和</li><li>可以输出样例中的期望结果</li></ol><h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><ol><li>强化数据类型和类型转换</li><li>强化列表与字符串的操作</li><li>强化四则运算的编程</li><li>强化条件/循环语句</li></ol><h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>访问OneDrive以获取相关材料</p><iframe src="https://onedrive.live.com/embed?cid=8CBB3C51F3734709&resid=8CBB3C51F3734709%212317&authkey=ABPeKy9KkwNQM4k" width="165" height="128" frameborder="0" scrolling="no"></iframe><ol><li>中文维基文库:<ul><li><code>GB_11643-1999.pdf</code></li></ul></li></ol><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><ol><li>字符串对象可以视作列表来操作</li></ol>]]></content:encoded>
-      
-      <comments>https://hisenz.com/post/id-card/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>面对无限</title>
-      <link>https://hisenz.com/post/The-Graduate/</link>
-      <guid>https://hisenz.com/post/The-Graduate/</guid>
-      <pubDate>Thu, 11 Apr 2019 05:03:04 GMT</pubDate>
-      <description>
-      
-        &lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;海森的博客&quot;&gt;&lt;blockquote&gt;&lt;p&gt;在无穷中, 我们孤独行舟.&lt;/p&gt;&lt;/blockquote&gt;
-      
-      </description>
-      
-      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="海森的博客"><blockquote><p>在无穷中, 我们孤独行舟.</p></blockquote><a id="more"></a><p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css"></p><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><div id="aplayer"></div><script>const ap = new APlayer({    container: document.getElementById('aplayer'),    audio: [{        name: 'The Sound Of Silence',        artist: 'Simon & Garfunkel',        url:'https://img.vim-cn.com/a2/8ce546d286fa7b3e0f74c1e245036ded9e1278.mp2',        cover: 'http://p1.music.126.net/CyphdMz6SkHmpQbacGjGJw==/6647647302210685.jpg?param=130y130'    }]});</script><h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><p>当我看到最近释出的首张黑洞照片, 瞬间一阵恐惧袭来. 尽管存在于同一个宇宙, 这于五千四百万光年外的存在, 是我有生之年永远也无法触及的地方. 倒不如承认它根本就在另外一个与我毫不相干的世界里.</p><p>无穷的距离意味着无穷的不确定性. 当距离遥远, 以至于相对于人类的短暂一生来说是无限之时, 我们还有足够的勇气继续前进吗? 我们还会驶着一叶小舟, 以孤独为伴, 向无穷的虚空空中进发吗?</p><p><img src="https://img.vim-cn.com/24/1b30bba1b7b699a06d7a2f9b96902cd84c1aca.jpg" alt="图片来源 https://live.staticflickr.com/7852/32636958507_973007bd5b_b.jpg"></p><h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>高中的三年快要结束了. 原本以为申请季之后剩下的只有轻松 - 这话放到现在看也确实没错 - 只是伴随着轻松而来的是迷茫. 人生的第一次, 我出现了大片的空白时间. 从读了小学开始便不再有过这样的体验: 每一天总是安排的满满当当, 每一周里也难得有半天的闲暇. 十二年来, 我重复着我认为理所应当的日程. 铁打的安排. 流水的年岁. 年年如此.</p><p>直到这段路走到尽头.</p><p>一如电影毕业生, 危机感向我不断的压来. 我面前是一片空白, 一尘不染; 是一片无限的可能. 在将来的两三个月里是这样, 在未来的四年里也是这样. 前路有无限种可能性, 我尽可以在这两三个月的时间徘徊在这个人生的岔路口,而我最终只能选择其中一条走下去.</p><blockquote><p>I shall be telling this with a sigh<br>Somewhere ages and ages hence:<br>Two roads diverged in a wood, and I–<br>I took the one less traveled by,<br>And that has made all the difference.</p><p>– Robert Frost, <i>The Road Not Taken</i></p></blockquote><p>权衡着机会成本与试错的沉没成本, 我反复问我自己, 我到底该做出怎么样的决定.</p><h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>不过严格来说, 初三时候的我也曾走过一次十字路口, 当时的我大概多少也有这样的担忧. 虽说两三个月也没有折腾出什么成绩, 那却是我这辈子前十八年里心态最佳的时候.</p><p>刚刚上高中那会, 觉得世上本不存在什么不可能的事. 所谓障碍和限制都是人们的臆想或是人为的设置, 仿佛没有物理限制的事情, 我都可以通过直接或者间接的方式达成. 现在三年走下来, 碰壁不少, 也终于觉察到这想法里的些许激进. 当然, 世上仍然没有什么不可能的事, 并且有着”条条大路通罗马”之类的真理在背后撑腰, 然而如果没有合适的资源和天成的机遇, 步骤或许繁杂到难以操作, 其实这么点道理, 老话早已归结了: “做事在人, 成事在天.”</p><p>不过还是要感谢当时的我抱有那样的想法. 因为曾经站在愚昧巅峰, 才有着后来的自信崩塌和绝望低谷. 如果不是如此, 大概这三年来, 我无从获取前进动力.</p><h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>那一段最猖狂的日子里, 我什么都敢叫板: 我不计后果地践行着我认为正确的选择. 我敢于表达自己的价值观. 我伸张正义. 多亏这三年我校领导和家人的”大力栽培”, 我现在做事前都会算计一番, 怎么对自己有利怎么来. 一夜之间, 我从一个哲学家被迫沦为政客.</p><p>高中给我带来最大的收获便是让我见识了黑暗到底可以有多黑暗, 让我初步窥见了”人-脸-钱-权”之间的关系. 世人忘记了”正直”两字怎么写固然很可惜. 然而最不可原谅的是我也忘了这两个字怎么写. 有时看到身边的人, 隔阂感莫名而生, 这令我很不安. 三年前的我看到现在的自己, 会唾弃成什么样?</p><p>活成了自己唾弃的模样, 最惨不过如此.</p><h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>过去的三年也绝非暗无天日, 因为身边有着一群有趣的人. 人是社会动物, 不断受到社会环境的影响. 当身边有更优秀的存在时, 会不由自主的学习对方的优点. (能不能习得则是另一回事).</p><p>他们中的许多人是精神榜样. 和有些人交往的时候让我重新思考一些司空见惯的事物. 有些鼓励我重新开始阅读. 有些人教我为人处世的准则. 这三年间的高光时刻, 都离不开他们. 很幸运碰到了你们.</p><h2 id="终"><a href="#终" class="headerlink" title="终"></a>终</h2><p>现在诉说的这些种种过往, 都是当时的未知. 时隔三年, 现在我又走到了一个更加错综复杂的岔路口.</p><p>兴奋显然掩盖不住对于无限未来的担忧. 我知道我变了. 也或许没有. 可是纵使再有多的不确定性, 未来在到来的那一刻也会告诉我确切的命运安排.</p><p>在畏惧无穷的时候, 低头看看脚下或许是个不错的主意.</p><p>我将独自穿行于无穷.</p>]]></content:encoded>
-      
-      <comments>https://hisenz.com/post/The-Graduate/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>挑战 | Brainfuck语言解释器</title>
-      <link>https://hisenz.com/post/bf-challenge/</link>
-      <guid>https://hisenz.com/post/bf-challenge/</guid>
-      <pubDate>Mon, 01 Apr 2019 11:53:42 GMT</pubDate>
-      <description>
-      
-        &lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;挑战 | Brainfuck语言解释器&quot;&gt;&lt;blockquote&gt;&lt;p&gt;Copyright 2019 &lt;a href=&quot;mailto:hisen@hisenz.com&quot;&gt;HisenZhang&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;1993年被提出的Brainfuck(以下简称BF)是一种极小化的语言, 全部使用的符号只有八种. 下面是BF的例程Hello World.&lt;/p&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;++++++++++ [&amp;gt;+++++++ &amp;gt;++++++++++ &amp;gt;+++&amp;gt;+&amp;lt;&amp;lt;&amp;lt;&amp;lt;-]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt;++.&amp;gt;+.+++++++ ..+++.&amp;gt;++.&amp;lt;&amp;lt;+++++++++++++++ .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt;.+++.------ .-------- .&amp;gt;+.&amp;gt;.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;BF的工作原理模拟了一台简单的图灵机&lt;code&gt;Turing Machine&lt;/code&gt;. 这个在1936年由图灵提出的计算模型描述了在一条无限长的纸带上, 机器的读写头不停的移动或读写以完成计算任务.&lt;/p&gt;&lt;p&gt;虽然图灵模型看上去简单, 但是图灵机可以解决大多数计算问题. 今天常用的计算机正是按照图灵机模型设计的. 因此, 理解了BF的工作原理, 也就很大程度上理解了现代计算机的数学原理和一些简单的计算理论&lt;code&gt;Computation Theory&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;在这个挑战里, 你需要编写一个解释器来运行BF语言.&lt;/p&gt;
-      
-      </description>
-      
-      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="挑战 | Brainfuck语言解释器"><blockquote><p>Copyright 2019 <a href="mailto:hisen@hisenz.com">HisenZhang</a></p></blockquote><p>1993年被提出的Brainfuck(以下简称BF)是一种极小化的语言, 全部使用的符号只有八种. 下面是BF的例程Hello World.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">++++++++++ [&gt;+++++++ &gt;++++++++++ &gt;+++&gt;+&lt;&lt;&lt;&lt;-]</span><br><span class="line">&gt;++.&gt;+.+++++++ ..+++.&gt;++.&lt;&lt;+++++++++++++++ .</span><br><span class="line">&gt;.+++.------ .-------- .&gt;+.&gt;.</span><br></pre></td></tr></table></figure><p>BF的工作原理模拟了一台简单的图灵机<code>Turing Machine</code>. 这个在1936年由图灵提出的计算模型描述了在一条无限长的纸带上, 机器的读写头不停的移动或读写以完成计算任务.</p><p>虽然图灵模型看上去简单, 但是图灵机可以解决大多数计算问题. 今天常用的计算机正是按照图灵机模型设计的. 因此, 理解了BF的工作原理, 也就很大程度上理解了现代计算机的数学原理和一些简单的计算理论<code>Computation Theory</code>.</p><p>在这个挑战里, 你需要编写一个解释器来运行BF语言.</p><a id="more"></a><h2 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h2><p><strong>输入样例 1</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">++++++++++ [&gt;+++++++ &gt;++++++++++ &gt;+++&gt;+&lt;&lt;&lt;&lt;-]</span><br><span class="line">&gt;++.&gt;+.+++++++ ..+++.&gt;++.&lt;&lt;+++++++++++++++ .</span><br><span class="line">&gt;.+++.------ .-------- .&gt;+.&gt;.</span><br></pre></td></tr></table></figure><p><strong>输出样例 1</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello World!</span><br></pre></td></tr></table></figure><p><strong>输入样例 2</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">+++++++++++</span><br><span class="line">&gt;+&gt;&gt;&gt;&gt;++++++++++++++++++++++++++++++++++++++++++++</span><br><span class="line">&gt;++++++++++++++++++++++++++++++++&lt;&lt;&lt;&lt;&lt;&lt;[&gt;[&gt;&gt;&gt;&gt;&gt;&gt;+&gt;</span><br><span class="line">+&lt;&lt;&lt;&lt;&lt;&lt;&lt;-]&gt;&gt;&gt;&gt;&gt;&gt;&gt;[&lt;&lt;&lt;&lt;&lt;&lt;&lt;+&gt;&gt;&gt;&gt;&gt;&gt;&gt;-]&lt;[&gt;++++++++++[-</span><br><span class="line">&lt;-[&gt;&gt;+&gt;+&lt;&lt;&lt;-]&gt;&gt;&gt;[&lt;&lt;&lt;+&gt;&gt;&gt;-]+&lt;[&gt;[-]&lt;[-]]&gt;[&lt;&lt;[&gt;&gt;&gt;+&lt;&lt;&lt;</span><br><span class="line">-]&gt;&gt;[-]]&lt;&lt;]&gt;&gt;&gt;[&gt;&gt;+&gt;+&lt;&lt;&lt;-]&gt;&gt;&gt;[&lt;&lt;&lt;+&gt;&gt;&gt;-]+&lt;[&gt;[-]&lt;[-]]</span><br><span class="line">&gt;[&lt;&lt;+&gt;&gt;[-]]&lt;&lt;&lt;&lt;&lt;&lt;&lt;]&gt;&gt;&gt;&gt;&gt;[+++++++++++++++++++++++++</span><br><span class="line">+++++++++++++++++++++++.[-]]++++++++++&lt;[-&gt;-&lt;]&gt;++++</span><br><span class="line">++++++++++++++++++++++++++++++++++++++++++++.[-]&lt;&lt;</span><br><span class="line">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;[&gt;&gt;&gt;+&gt;+&lt;&lt;&lt;&lt;-]&gt;&gt;&gt;&gt;[&lt;&lt;&lt;&lt;+&gt;&gt;&gt;&gt;-]&lt;-[&gt;&gt;.&gt;.&lt;&lt;&lt;</span><br><span class="line">[-]]&lt;&lt;[&gt;&gt;+&gt;+&lt;&lt;&lt;-]&gt;&gt;&gt;[&lt;&lt;&lt;+&gt;&gt;&gt;-]&lt;&lt;[&lt;+&gt;-]&gt;[&lt;+&gt;-]&lt;&lt;&lt;-]</span><br></pre></td></tr></table></figure><p><strong>输出样例 2</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89</span><br></pre></td></tr></table></figure><h2 id="完成度"><a href="#完成度" class="headerlink" title="完成度"></a>完成度</h2><p>本挑战的完成度分为三个等级</p><ol><li>可以解析<code>+</code>,<code>-</code>,<code>&lt;</code>,<code>&gt;</code>四种操作</li><li>可以解析<code>.</code>,<code>,</code>两种操作</li><li>可以解析循环</li></ol><h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><ol><li>学习图灵计算模型</li><li>学习ASCII编码</li><li>强化四则运算的编程</li><li>强化条件/循环语句</li><li>理解编程语言的本质</li></ol><h2 id="材料"><a href="#材料" class="headerlink" title="材料"></a>材料</h2><p>访问OneDrive以获取相关材料</p><iframe src="https://onedrive.live.com/embed?cid=8CBB3C51F3734709&resid=8CBB3C51F3734709%211344&authkey=APVSI6GDKYRggf0" width="165" height="128" frameborder="0" scrolling="no"></iframe><ol><li>中文维基百科:<ul><li><code>brainfuck.pdf</code></li><li><code>turing_machine.pdf</code></li><li><code>ascii.pdf</code></li></ul></li><li>视频 &amp; 英语字幕:<ul><li><code>How Brainfuck Work.mp4</code></li><li><code>How Brainfuck Works.ass</code></li></ul></li><li>在线 Brainfuck Visualizer<ul><li><a href="https://fatiherikli.github.io/brainfuck-visualizer/" rel="external nofollow noopener noreferrer" target="_blank">https://fatiherikli.github.io/brainfuck-visualizer/</a></li></ul></li></ol>]]></content:encoded>
-      
-      <comments>https://hisenz.com/post/bf-challenge/#disqus_thread</comments>
     </item>
     
   </channel>
