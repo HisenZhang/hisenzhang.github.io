@@ -8,8 +8,24 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>海森的博客 - 技术, 料理 &amp; 爵士乐</description>
-    <pubDate>Thu, 06 Jun 2019 05:03:21 GMT</pubDate>
+    <pubDate>Sat, 08 Jun 2019 13:09:17 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>度量的艺术</title>
+      <link>https://hisenz.com/post/the-art-of-measuring/</link>
+      <guid>https://hisenz.com/post/the-art-of-measuring/</guid>
+      <pubDate>Sat, 08 Jun 2019 11:03:59 GMT</pubDate>
+      <description>
+      
+        &lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;海森的博客&quot;&gt;&lt;p&gt;如何用现有精度的机床加工出更高精度的下一代机床? 这是个先有鸡还是先有蛋的悖论.&lt;/p&gt;
+      
+      </description>
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="海森的博客"><p>如何用现有精度的机床加工出更高精度的下一代机床? 这是个先有鸡还是先有蛋的悖论.</p><a id="more"></a><h2 id="不同基准得出不同结论"><a href="#不同基准得出不同结论" class="headerlink" title="不同基准得出不同结论"></a>不同基准得出不同结论</h2><p>人们总是有意无意的做着度量. 昨天的股价大跌了, 今天的消费偏高了, 明天的气温要降了. 股市4000点相比2000点是上涨. 明天的气温23度, 比今天的32度来得低, 由此得出明天要降温. 事实上, 度量结果本身不能告诉我们什么, 只有度量的结果之间相比才可以得出结论.</p><p>为什么说度量结果本身是没有意义的? 试读下面一句话.</p><blockquote><p>某电阻器的阻值为10Ω.</p></blockquote><p>10Ω阻值意味着什么? 不知道吧.</p><p>要使得度量结果有意义, 通常先手动选取一个值作为基准来参照. 然而很多时候, 基准藏在潜意识里. 用手去试水温, 你会知道是热还是冷, 即使你并不知道准确的温度. 这就是为什么我在上面的例子里使用电阻来说明问题 - 人类对于电阻很少有直觉上的基准. 不过你可以尝试一下这个问题:</p><blockquote><p>100摄氏度属于高温吗?</p></blockquote><p>直觉的回答: 100度确实属于高温, 因为这个温度的蒸汽可以造成严重烫伤. 但是从化学家的角度看, 大多数的盐类在这个温度下不能分解, 因此这个温度实在算不上高温. 这个问题中, 前者以生物可以接受的温度(直觉里)作为基准, 而后者采用大多数盐类分解的温度作为基准, <strong>由不同的基准得出了两个截然相反的答案.</strong> 基准的选取决定了比较的结果.</p><h2 id="量具与基准"><a href="#量具与基准" class="headerlink" title="量具与基准"></a>量具与基准</h2><p>你想知道在过去十年里你长高了多少, 在今天不是一件难事. 用尺子测量现在的身高, 和十年前的记录比对, 就可以得到我们想要的数据. 但是在尺子发明之前, 这不是一件容易的事情 - 你无法把十年前的自己找来, 站在一起比身高. 介于多数场合下直接比较的困难性, 人们开始使用量具. <strong>量具的目的是提供一个基准, 但是反过来基准又定义了量器.</strong></p><p>为了使结果通用, 人们又定义了统一的基准. 这样一来, 你的尺上一的一米和我尺上的一米就是相同的. 在不同地方由不同科学家测量出来的结果之间可以相互比较. 值得一提的是, 古人并不笨 - 他们善于运用天然的事物. 早在尺子发明之前, 古埃及人就用小臂来测量长度, 并且凭借这看似不准确的量具建造出了金字塔奇观.</p><p>尽可能准确地定义千克, 米, 秒, 科学家逐渐建立起现有的SI单位体系, 物理学大厦在此基础上飞速的建造.</p><h2 id="度量悖论"><a href="#度量悖论" class="headerlink" title="度量悖论"></a>度量悖论</h2><p>如开篇所提的问题: 如何用现有精度的机床加工出更高精度的下一代机床? 这个问题的的实质, 是如果度量的尺子本身并不准确/精准, 我们该怎么办?</p><p>再放到更广义的角度上, 我们所依赖的度量本身是否可靠? 我们又如何知道它是否可靠?</p><p>同一个温度, 在两种摄氏华氏两种温标下的读数不一样. 然而它们代表的仍然是同一个温度.</p><p>同一个行为, 在不同文化的价值观下的评判不一样. 有的文化禁止食用猪肉, 其它的则没有. 然而评判的其实仍然是同一个行为.</p><p>我们用不同的度量, 不同的基准都会得到不同的结果. 我们应该到底信任哪一种?</p><p>大概, 理念世界中本来就没有什么黑白对错.</p><p>还有最后一个可怕的问题: 度量这个概念本身可靠吗?</p>]]></content:encoded>
+      
+      <comments>https://hisenz.com/post/the-art-of-measuring/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>现实世界, 理念世界和永恒</title>
@@ -87,22 +103,6 @@
     </item>
     
     <item>
-      <title>料理 | 鸡腿排练习</title>
-      <link>https://hisenz.com/post/fried-chicken-2/</link>
-      <guid>https://hisenz.com/post/fried-chicken-2/</guid>
-      <pubDate>Sun, 26 May 2019 12:47:19 GMT</pubDate>
-      <description>
-      
-        &lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;料理 | 鸡腿排练习&quot;&gt;&lt;p&gt;继上次的&lt;a href=&quot;/post/fried-chicken&quot;&gt;完美鸡腿排指南&lt;/a&gt;, 这一次的练习做出了一些改进.&lt;/p&gt;
-      
-      </description>
-      
-      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="料理 | 鸡腿排练习"><p>继上次的<a href="/post/fried-chicken">完美鸡腿排指南</a>, 这一次的练习做出了一些改进.</p><a id="more"></a><h2 id="复炸"><a href="#复炸" class="headerlink" title="复炸"></a>复炸</h2><p>上一次我采取了一次油炸的方式制作的鸡排, 外观看上去颜色较深. 为了解决这一问题, 这一次在炸制时候选择了更低的温度, 并且在开始呈现出金黄色的时候捞出, 重新裹粉并冷却. 随后提升油温, 较快的在油里过一遍, 捞起控油.</p><p>这里放两张图片作为对比</p><p><img src="https://s2.ax1x.com/2019/05/04/EdXE9K.jpg" alt=""></p><blockquote><p>一次油炸</p></blockquote><p><img src="https://s2.ax1x.com/2019/05/27/VZy1w4.jpg" alt=""></p><blockquote><p>二次油炸(复炸)</p></blockquote><p>可见复炸可以有效解决解决焦黑的问题.</p><p>可以使用厨房纸吸掉多余的油. 额外提一句. 厨房纸似乎在中国厨房里很少见 - 其实它很好用, 吸油吸水都很合适, 价格也不贵(我用的7块5买到两大卷), 一般超市纸制品的地方都有售.</p><h2 id="简单摆盘"><a href="#简单摆盘" class="headerlink" title="简单摆盘"></a>简单摆盘</h2><p>尝试了一下简单的摆盘布局. 立体堆积产生空间感, 加以新鲜薄荷叶撞色点缀.</p><p>目前正在研究这个方面的内容. 之后(小概率, 咕咕咕)会单独抽一篇来展开细节.</p><h2 id="百里香的添加"><a href="#百里香的添加" class="headerlink" title="百里香的添加"></a>百里香的添加</h2><p>为了验证百里香对于鸡肉烹调的重要性, 我这一次做了对比试验 - 其中有一块鸡肉在腌制的时候只放盐和黑胡椒. 事实证明这块鸡肉没有什么香气可言 - 主要是外面的脆壳带来的风味而吃不出鸡肉的风味.</p><h2 id="拍摄布光"><a href="#拍摄布光" class="headerlink" title="拍摄布光"></a>拍摄布光</h2><p>这一次既然有了<del>精致</del>走心的摆盘, 那么摄影就不能懈怠了. 由于桌面本身色调较暗的缘故, 我这一次选择使用较暗的环境光.(如上面两张图的对比, 上一次的背景光很亮)</p><p>主光源采用暖色的射灯, 垂直向下打在主体的右后方, 使得盘子上阴影不会过分夸张. 画面的右上角方向还有微弱的低色温环境光. 最后在后期处理的时候增强暗边, 可以使得注意力集中在画面的中心主体.</p><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>热咖啡浇入冰的苏打水, 竟有一丝微妙的甜味.</p><p>干杯[]~(￣▽￣)~*</p><p><img src="https://s2.ax1x.com/2019/05/27/VZyGk9.jpg" alt=""></p>]]></content:encoded>
-      
-      <comments>https://hisenz.com/post/fried-chicken-2/#disqus_thread</comments>
-    </item>
-    
-    <item>
       <title>料理 | 基于食材的料理练习</title>
       <link>https://hisenz.com/post/ingredient-based-study/</link>
       <guid>https://hisenz.com/post/ingredient-based-study/</guid>
@@ -116,6 +116,22 @@
       <content:encoded><![CDATA[<meta name="description" itemprop="description" content="料理 | 基于食材的料理练习"><p>有的蔬菜吸油, 有的蔬菜不吸油. 这由食材本身的特性决定.</p><p>依我目前的浅见, 料理这门学问的核心是如何使手上的食材发挥出最大的潜力. 因此, 学习料理的第一步也就是熟悉各种食材的特性. 只有当厨师对于基本的食材特性了然于胸的时候, 卓越和创新才会成为可能.</p><a id="more"></a><p>过去做的每一份料理, 我都是当做习作作品来对待的, 所用的食材(肉类)也是西餐中常见的牛肉和鸡肉. 这是我对于肉类特性的探索. 我的关注点主要就集中在它们的特性上. 比方说, 鸡肉的缩水比牛肉要严重, 鸡皮可以带来特殊的口感(牛肉则没有这个concern), 等等.</p><h2 id="基于菜品分类的练习"><a href="#基于菜品分类的练习" class="headerlink" title="基于菜品分类的练习"></a>基于菜品分类的练习</h2><p>我翻看过一些西餐烹饪指南. 绝大多数的这些指南都是设计为简单的菜谱, 而最常见的安排内容的方法则是依照菜品的类型(这个名词我暂时没想到合适的中文, 先如此称呼), 如前菜, 汤, 主菜, 甜品等等. 如此一来, 想要做个汤的时候, 目录一翻便可找到合适的条目开始动手.</p><p>当然, 我无意攻击这样的练习方式. 每个人都会找到最合适自己的方式, 且基于菜品分类的练习确实可以短时间内速成料理技术. 但是, 我的哲学是无意速成. <strong>走捷径总是要付出代价的.</strong></p><h2 id="基于食材的练习"><a href="#基于食材的练习" class="headerlink" title="基于食材的练习"></a>基于食材的练习</h2><p>但是对着菜谱做菜, 这最多也只是学了个形似. 想到做到神似, 要知其所以然.</p><p>同一种食材, 可能使用在前菜里, 也同样出现在main course中. 这就是对于食材的特性在不同的维度上加以利用而做到的: 这背后是对于食材特性有深入了解; 如果我们只注重于菜品类型, 则很难在食材处理想象力上有所突破.</p><p>最后, 思考下面的这个列表或许对你有所启发:</p><ol><li>小番茄</li><li>土豆</li><li>柠檬</li><li>牛尾</li><li>青瓜</li><li>苏打水</li><li>鼠尾草</li></ol><p>它们各自都有什么特点? 如何处理(或搭配)可以利用这些特点来呈现出风味? 这些风味可以放到一顿饭中的哪些环节?</p>]]></content:encoded>
       
       <comments>https://hisenz.com/post/ingredient-based-study/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>料理 | 鸡腿排练习</title>
+      <link>https://hisenz.com/post/fried-chicken-2/</link>
+      <guid>https://hisenz.com/post/fried-chicken-2/</guid>
+      <pubDate>Sun, 26 May 2019 12:47:19 GMT</pubDate>
+      <description>
+      
+        &lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;料理 | 鸡腿排练习&quot;&gt;&lt;p&gt;继上次的&lt;a href=&quot;/post/fried-chicken&quot;&gt;完美鸡腿排指南&lt;/a&gt;, 这一次的练习做出了一些改进.&lt;/p&gt;
+      
+      </description>
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="料理 | 鸡腿排练习"><p>继上次的<a href="/post/fried-chicken">完美鸡腿排指南</a>, 这一次的练习做出了一些改进.</p><a id="more"></a><h2 id="复炸"><a href="#复炸" class="headerlink" title="复炸"></a>复炸</h2><p>上一次我采取了一次油炸的方式制作的鸡排, 外观看上去颜色较深. 为了解决这一问题, 这一次在炸制时候选择了更低的温度, 并且在开始呈现出金黄色的时候捞出, 重新裹粉并冷却. 随后提升油温, 较快的在油里过一遍, 捞起控油.</p><p>这里放两张图片作为对比</p><p><img src="https://s2.ax1x.com/2019/05/04/EdXE9K.jpg" alt=""></p><blockquote><p>一次油炸</p></blockquote><p><img src="https://s2.ax1x.com/2019/05/27/VZy1w4.jpg" alt=""></p><blockquote><p>二次油炸(复炸)</p></blockquote><p>可见复炸可以有效解决解决焦黑的问题.</p><p>可以使用厨房纸吸掉多余的油. 额外提一句. 厨房纸似乎在中国厨房里很少见 - 其实它很好用, 吸油吸水都很合适, 价格也不贵(我用的7块5买到两大卷), 一般超市纸制品的地方都有售.</p><h2 id="简单摆盘"><a href="#简单摆盘" class="headerlink" title="简单摆盘"></a>简单摆盘</h2><p>尝试了一下简单的摆盘布局. 立体堆积产生空间感, 加以新鲜薄荷叶撞色点缀.</p><p>目前正在研究这个方面的内容. 之后(小概率, 咕咕咕)会单独抽一篇来展开细节.</p><h2 id="百里香的添加"><a href="#百里香的添加" class="headerlink" title="百里香的添加"></a>百里香的添加</h2><p>为了验证百里香对于鸡肉烹调的重要性, 我这一次做了对比试验 - 其中有一块鸡肉在腌制的时候只放盐和黑胡椒. 事实证明这块鸡肉没有什么香气可言 - 主要是外面的脆壳带来的风味而吃不出鸡肉的风味.</p><h2 id="拍摄布光"><a href="#拍摄布光" class="headerlink" title="拍摄布光"></a>拍摄布光</h2><p>这一次既然有了<del>精致</del>走心的摆盘, 那么摄影就不能懈怠了. 由于桌面本身色调较暗的缘故, 我这一次选择使用较暗的环境光.(如上面两张图的对比, 上一次的背景光很亮)</p><p>主光源采用暖色的射灯, 垂直向下打在主体的右后方, 使得盘子上阴影不会过分夸张. 画面的右上角方向还有微弱的低色温环境光. 最后在后期处理的时候增强暗边, 可以使得注意力集中在画面的中心主体.</p><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>热咖啡浇入冰的苏打水, 竟有一丝微妙的甜味.</p><p>干杯[]~(￣▽￣)~*</p><p><img src="https://s2.ax1x.com/2019/05/27/VZyGk9.jpg" alt=""></p>]]></content:encoded>
+      
+      <comments>https://hisenz.com/post/fried-chicken-2/#disqus_thread</comments>
     </item>
     
     <item>
@@ -164,22 +180,6 @@
       <content:encoded><![CDATA[<meta name="description" itemprop="description" content="料理 | 完美鸡腿排指南"><p>市售的鸡排大多是合成的鸡肉饼, 口感和来源均令人堪忧. 这篇教程教你如何从鸡腿开始做出一块完美鸡排.</p><a id="more"></a><p><img src="https://s2.ax1x.com/2019/05/04/EdXkh6.jpg" alt=""></p><h2 id="食材"><a href="#食材" class="headerlink" title="食材"></a>食材</h2><table><thead><tr><th style="text-align:center">食材</th><th style="text-align:center">数量</th><th style="text-align:center">市价/人民币</th></tr></thead><tbody><tr><td style="text-align:center">琵琶腿</td><td style="text-align:center">4个</td><td style="text-align:center">12.9</td></tr><tr><td style="text-align:center">鸡蛋</td><td style="text-align:center">2个</td><td style="text-align:center">2</td></tr><tr><td style="text-align:center">玉米淀粉</td><td style="text-align:center">适量 *</td><td style="text-align:center">N/A</td></tr><tr><td style="text-align:center">面粉</td><td style="text-align:center">适量 *</td><td style="text-align:center">N/A</td></tr><tr><td style="text-align:center">面包糠</td><td style="text-align:center">适量</td><td style="text-align:center">N/A</td></tr><tr><td style="text-align:center">海盐</td><td style="text-align:center">适量</td><td style="text-align:center">N/A</td></tr><tr><td style="text-align:center">现磨黑胡椒</td><td style="text-align:center">适量</td><td style="text-align:center">N/A</td></tr><tr><td style="text-align:center">橄榄油</td><td style="text-align:center">适量</td><td style="text-align:center">N/A</td></tr><tr><td style="text-align:center">大蒜(可选)</td><td style="text-align:center">适量</td><td style="text-align:center">N/A</td></tr><tr><td style="text-align:center">黄油(可选)</td><td style="text-align:center">适量</td><td style="text-align:center">N/A</td></tr><tr><td style="text-align:center">百里香(可选)</td><td style="text-align:center">适量</td><td style="text-align:center">N/A</td></tr><tr><td style="text-align:center">欧芹(可选)</td><td style="text-align:center">适量</td><td style="text-align:center">N/A</td></tr></tbody></table><p>备注:</p><ol><li>玉米淀粉:面粉的比例在1:3左右</li><li>强烈建议添加百里香! 百里香和鸡肉的味道搭配令人十分愉悦.</li></ol><h2 id="处理过程"><a href="#处理过程" class="headerlink" title="处理过程"></a>处理过程</h2><h3 id="剔骨"><a href="#剔骨" class="headerlink" title="剔骨"></a>剔骨</h3><p>想要剔骨的过程流畅的话, 在这一步操作前, <strong>请先磨刀</strong>. 不要问我怎么知道的.</p><p>剔骨的过程<del>很简单</del>需要一点耐心. 拿起鸡腿端详一圈. 从鸡腿贴近鸡身的那一面和那一端下刀. 沿着腿骨耐心划开鸡肉直至鸡爪的一端. 立起鸡腿, 手握在上的鸡爪一端, 用刀向下剔开鸡肉. 稍加修整可以得到一块完整的腿排.</p><p><del>好吧我知道这描述根本听不懂.</del> 可以参考<a href="https://www.bilibili.com/video/av33668013/" rel="external nofollow noopener noreferrer" target="_blank">这个视频</a>35秒处.</p><p>剔骨的过程多练习几遍, 就熟练了.</p><h3 id="腌制"><a href="#腌制" class="headerlink" title="腌制"></a>腌制</h3><p>在鸡皮上用牙签扎洞, 这样可以腌制得更入味, 也可以防止鸡皮油炸过程中过度收缩.</p><p>在鸡皮面仅抹上盐, 用力按揉. 翻面抹上盐, 现磨黑胡椒, 百里香的干叶. 百里香的气味和鸡肉十分搭配; 我怀疑吮指原味鸡的配方里也有这种的成分. 你可以在一些大超市里找到百里香 (我使用的这款麦德龙有售).</p><blockquote><p>题外话, 牛排和鼠尾草或者百里香的气味搭配起来都不错.</p></blockquote><p>适量抹上橄榄油可以让鸡肉变得更嫩. 等待15分钟左右鸡肉就会出水. 除去这些多余的水分, 下面开始最具技巧性的一步: 裹粉.</p><h3 id="裹粉"><a href="#裹粉" class="headerlink" title="裹粉"></a>裹粉</h3><p>裹粉的质量直接决定了最后成品的质量. 时刻记住 <strong>均匀</strong> 二字.</p><p>将玉米淀粉和面粉以<code>1:3</code>的比例混合拌匀. 放入已经开始腌制的鸡排, 均匀裹上一层. 再裹一层蛋液. 注意蛋液是全蛋而不仅是蛋清. 最后均匀粘上面包糠即可.</p><p>如果追求更厚的脆壳, 可以在第一次裹蛋液之后, 再裹一层混合粉和蛋液.</p><h3 id="等待"><a href="#等待" class="headerlink" title="等待"></a>等待</h3><p>时间的魔法是料理里的一个最重要也最难得的要诀. 很多时候, 优秀的料理不过是巧妙融入了时间这种元素. 我个人很喜欢一个叫做<code>肥丁手工坊</code>的料理频道, 她的许多作品, 比如<a href="https://www.bilibili.com/video/av46970609/" rel="external nofollow noopener noreferrer" target="_blank">酿酒</a>, 就需要耐心的观察与等待.</p><p>可惜快餐文化盛行的当代, 时间这种昂贵的元素, 早已在料理中难觅.</p><p>将裹好粉的腿排放入冰箱等待24小时左右, 使其腌制入味. 确保在油炸之前恢复到室温.</p><h3 id="油炸"><a href="#油炸" class="headerlink" title="油炸"></a>油炸</h3><p>由于面包糠的存在, 我们需要 <strong>低温油炸</strong> , 防止外壳焦化并确保腿排熟透.</p><p><strong>不要使用黄油油炸</strong>, 因为黄油在高温下很容易焦化. 黄油在鸡排出锅后放在脆壳上融化, 用以提升香气.</p><p>下<strong>宽油</strong>(橄榄油), 如果喜欢蒜香的话可以下带皮的蒜瓣 (不然容易焦). 把一根木质的筷子戳入油里, 开始冒泡意味着油温到了合适的水平. 将带皮的一面向下放置. 保持低温油炸. 保持低温油炸. 保持低温油炸.</p><p>判断鸡肉熟成的方法如下: 当鸡肉成熟以后会开始析出汤汁 (直到完全变柴), 而水份碰到热油会发生溅射. 当反应逐渐变弱的时候, 就说明鸡肉开始变干了, 已经熟成.</p><p>沥干控油. 讲究的话可以用厨房纸吸去多余的油. 静置一段时间即可装盘, 撒上欧芹叶装饰.</p><p><img src="https://s2.ax1x.com/2019/05/04/EdXE9K.jpg" alt=""></p><h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><p>如同<a href="/post/Sous-Vide/#%E8%88%92%E8%82%A5%E9%B8%A1%E8%83%B8%E8%82%89">舒肥鸡胸肉</a>一样, 可以搭配土豆泥和白葡萄酒. 可乐也是个不错的选择.</p>]]></content:encoded>
       
       <comments>https://hisenz.com/post/fried-chicken/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>Mac双系统之删除Windows系统</title>
-      <link>https://hisenz.com/post/remove-win-on-mac/</link>
-      <guid>https://hisenz.com/post/remove-win-on-mac/</guid>
-      <pubDate>Sat, 27 Apr 2019 06:08:16 GMT</pubDate>
-      <description>
-      
-        &lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;海森的博客&quot;&gt;&lt;p&gt;很多同学在Mac上通过Bootcamp安装了双系统之后, 由于种种原因, 想要卸载Windows操作系统并释放磁盘空间. 这一篇教程教你如何卸载Windows, 部分内容编译自StackOverflow的&lt;a href=&quot;https://apple.stackexchange.com/a/344481&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;这个回答&lt;/a&gt;.&lt;/p&gt;
-      
-      </description>
-      
-      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="海森的博客"><p>很多同学在Mac上通过Bootcamp安装了双系统之后, 由于种种原因, 想要卸载Windows操作系统并释放磁盘空间. 这一篇教程教你如何卸载Windows, 部分内容编译自StackOverflow的<a href="https://apple.stackexchange.com/a/344481" rel="external nofollow noopener noreferrer" target="_blank">这个回答</a>.</p><a id="more"></a><h2 id="Bootcamp-卸载"><a href="#Bootcamp-卸载" class="headerlink" title="Bootcamp 卸载"></a>Bootcamp 卸载</h2><p>由于Bootcamp分区的特殊性, 不可以直接通过格式化来释放空间.</p><p>在软件列表里打开Bootcamp, 按照向导提示完成. 如果出现了以下错误:</p><blockquote><p>The startup disk cannot be partitioned or restored to a single partition.</p></blockquote><p>请继续阅读以下部分.</p><h2 id="命令行卸载"><a href="#命令行卸载" class="headerlink" title="命令行卸载"></a>命令行卸载</h2><ol start="0"><li><p>打开磁盘实用程序(Disk Utility), 在左侧查看分区. 右侧的详细信息里中如果写有NTFS则表明这是个Windows分区. 记下这个分区的名字(左侧显示的名字).</p></li><li><p>在软件列表里搜索”terminal”, 打开终端(默认白底黑字的窗口).</p></li><li><p>格式化Windows分区:</p><blockquote><p>这一步操作不慎可能导致数据丢失.</p></blockquote><p>依次输入命令(大小写敏感, 每行末尾有回车):</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo diskutil eraseVolume free none disk0s4</span><br><span class="line">sudo diskutil eraseVolume free none disk0s3</span><br></pre></td></tr></table></figure><p>在输入第一行回车后会询问登录密码. 密码输入的时候没有回显. 输入完成后回车确认.<br>成功的输出看上去像这样</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Started erase on disk0s4 BOOTCAMP</span><br><span class="line">Unmounting disk</span><br><span class="line">Finished erase on disk0</span><br></pre></td></tr></table></figure><p>通常来说只有<code>disk0s3`</code>disk0s4<code>被占用. 少数机器</code>disk0s5`也被占用. 这种情况需要灵活应对, 把上面命令里的分区名改为需要擦除的分区名即可.</p></li><li><p>调整苹果分区大小<br>继续输入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo diskutil apfs resizeContainer disk0s2 0</span><br></pre></td></tr></table></figure><p>成功的输出看上去像这样</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">...(省略)</span><br><span class="line">Growing APFS data structures</span><br><span class="line">Finished APFS operation</span><br></pre></td></tr></table></figure></li><li><p>清理启动文件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo diskutil mount disk0s1</span><br><span class="line"><span class="built_in">cd</span> /Volumes/EFI/EFI</span><br><span class="line">rm -r Boot</span><br><span class="line">rm -r Microsoft</span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">diskutil unmount disk0s1</span><br></pre></td></tr></table></figure><p>rm这一步如果出现Error, 无需采取措施. 这个错误说明安装时候采用的是legacy方式.</p></li><li><p>所有工作已完成. 再次打开Disk Utility来确认刚刚的工作成果.</p></li></ol>]]></content:encoded>
-      
-      <comments>https://hisenz.com/post/remove-win-on-mac/#disqus_thread</comments>
     </item>
     
   </channel>
